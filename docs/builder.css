@@ -1,0 +1,17 @@
+body { background-color: #ccc; margin: 0; padding: 0; border: 0; overflow: hidden; height: 100%; max-height: 100%; }
+span.build { display: inline-block; width: 48%; }
+span.items { display: inline-block; position: fixed; top: 0; bottom: 0; width: 48%; overflow-y: auto; overflow-x: hidden;}
+span { border: 1px solid black; }
+#options { width: 100%; display: inline-block;}
+.item { white-space: nowrap; background-color: #eee; cursor: pointer; }
+
+.toggle-check { display: none; }
+.toggle-check ~ .toggle-content { background-color: #d4d; }
+.toggle-check:checked ~ .toggle-content { background-color: #99f; }
+
+.toggle-wrap { display: inline-block; border: 1px solid grey; cursor: pointer; }
+.toggle-content { border: 1px solid grey; padding: 0.2em; margin: 0.05em;}
+
+.hidden { display: none; }
+
+img { height: 1em; width: 1em; }
