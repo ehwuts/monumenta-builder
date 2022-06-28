@@ -122,7 +122,7 @@ for (let items = data.data, i = items.length; i > 0;) {
 	e.id = "item" + i;
 	e.onclick = () => {equipItem(i)};
 	let img = getImageFromType(items[i][index.Type]);
-	e.innerHTML = "<img src='" + img + ".png' alt='" + img + "'> " + items[i][index.Name];
+	e.innerHTML = "<img src='./" + img + ".png' alt='" + img + "'> " + items[i][index.Name];
 	
 	itemlist.appendChild(e);
 }
