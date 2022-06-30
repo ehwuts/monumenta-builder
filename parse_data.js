@@ -53,4 +53,20 @@ function process() {
 	//fs.writeFileSync("data/data.json", JSON.stringify(data, null, "\t"));
 	fs.writeFileSync("data/data.json", JSON.stringify(data));
 	console.log("Items -", results.length);
+	
+	let tiers = {};
+	let types = {};
+	let regions = {};
+	let bases = {};
+	let locations = {};
+	for (let i = 0; i < results.length; i++) {
+		//regions[results[i][2]] ++;
+		//tiers[results[i][3]]++;
+		//if (!types[results[i][4]]) types[results[i][4]] = 0;
+		//types[results[i][4]]++;
+		if (!bases[results[i][5]]) bases[results[i][5]] = 0;
+		bases[results[i][5]]++;
+		//locations[results[i][6]]++;
+	}
+	console.log(tiers, types, regions, locations, bases);
 }
