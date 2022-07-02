@@ -1,4 +1,4 @@
-const path_data_raw = "data/raw/Monumenta Item Spreadsheet v2.2.0 - Item Backend Data.csv";
+const path_data_raw = "./data/raw/Chiinox_ - Item Backend Data.csv";
 
 const csv = require("csv-parser");
 const fs = require("fs");
@@ -80,7 +80,7 @@ function getIndexFromHeader(h) {
 	if (indices[h]) return indices[h];
 	
 	function findIndex(k) {
-		let L = h.length;
+		let L = headers.length;
 		for (let i = 0; i < L; i++) {
 			if (headers[i] === k) return i;
 		}
@@ -93,10 +93,6 @@ function getIndexFromHeader(h) {
 function map(key, map) {
 	if (mappings[map]&&mappings[map][key]) return mappings[map][key];
 	else return "Unknown Value";
-}
-
-function column(key) {
-	return map(row[getIndexFromHeader(key)], key);
 }
 
 function getBaseItem(item) {
@@ -189,10 +185,6 @@ Glow Stick ‌[Bedrock and Education editions only] : 100 uses
 }
 
 function itemify(row) {	
-	//remove spreadsheet's indexing columns since the name collisions are problematic
-	row.splice(-7);
-	//remove the meta summary columns because same
-	row.splice(9, 16);
 	//console.log(row);
 	
 	let item = {
@@ -209,24 +201,26 @@ function itemify(row) {
 		"display": {
 		  "Name": null
 		}
+	  },
+	  "meta": {
+		  "type": null,
+		  "slot": null
 	  }
 	}
+	//console.log(item);
 	/*
 	item.plain.display.Name = column("Name");
-	item.monumenta.Location = column("Location");
-	item.monumenta.Region = column("Region");
-	item.monumenta.Tier = column("Tier");
+	item.Monumenta.Location = column("Location");
+	item.Monumenta.Region = column("Region");
+	item.Monumenta.Tier = column("Tier");
 	item.type = column("Base Item");
-	item.monumenta.Location = column("Location");
+	item.Monumenta.Location = column("Location");
 	*/
 	
 	//jk should pull name and slot assumption before bulk iteration
-	item.plain.display.Name = column("Name");
-	item.type = column("Base Item");
 	//item.durability = getBaseItemDurability(item.type);
 	
 	let slot = null;
-	let metatype = column("Type");
 	slot = ((meta) => {
 		switch (meta) {
 			case "Wand":
@@ -245,11 +239,8 @@ function itemify(row) {
 			case "Offhand Shield": 
 			case "Offhand Sword": 
 			case "Offhand":
-			case "Shield":  // this appears to only be Shield, a tier 0 shield with no stats
+			case "Shield":  // this appears to only be Shield, a tier 2 shield with no stats
 				return "offhand";
-			case "Misc": 
-			case "Consumable": 
-				return null;
 			case "Helmet":
 				return "head";
 			case "Chestplate": 
@@ -258,148 +249,183 @@ function itemify(row) {
 				return "legs";
 			case "Boots": 
 				return "feet";
+			case "Misc": 
+			case "Consumable": 
+				return null;
+			default:
+				return null;
 		}
-	})(column("Type"));
+	})(row[getIndexFromHeader("Type")]);
+	item.meta.slot = slot;
+	
+	const regex_percent = /^[+\-]?\d+(?:\.\d+)?%$/;
 	
 	function addAttribute(item, attribute, operation, magnitude, slot) {
-		if (operation !== "add" && "operation" !== "multiply") console.log("WARN - ",item,attribute,operation);
-		item.Monumenta.Stock.Attributes.push({
+		//convert the relative percentage strings into magnitudes so that Number can parse them without turning into NaN
+		if (typeof magnitude !== "number") {
+			if (magnitude.match(regex_percent)) {
+				magnitude = Number(magnitude.slice(0,-1))/100;
+			} else magnitude = Number(magnitude);
+		}
+		
+		if (operation !== "add" && operation !== "multiply") {
+			console.log("WARN - ",item,attribute,operation);
+		}
+		let attr = {
 			"Amount": magnitude,
 			"Slot": slot,
 			"AttributeName": attribute,
 			"Operation": operation
-		});		
+		};
+		//console.log(attr);
+		item.Monumenta.Stock.Attributes.push(attr);		
 	}
 	function addEnchantment(item, enchantment, magnitude) {
+		//convert the relative percentage strings into magnitudes so that Number can parse them without turning into NaN
+		if (typeof magnitude !== "number") {
+			if (magnitude.match(regex_percent)) {
+				magnitude = Number(magnitude.slice(0,-1))/100;
+			} else magnitude = Number(magnitude);
+		}
+		
 		item.Monumenta.Stock.Enchantments[enchantment] = { "Level": magnitude };
 	}
+
 	
 	let L = row.length;
 	for (let i = 0; i < L; i++) {
 		if (!headers[i]) continue;
+		if (!row[i]) continue;
+		
 		switch (headers[i].trim()) {
-			"Name":	/* item.plain.display.Name = row[i]; */ break;
-			"Region": item.monumenta.Region = row[i]; break;
-			"Tier": item.monumenta.Tier = row[i]; break;
-			"Type":
+			case "Name":	item.plain.display.Name = row[i]; break;
+			case "Region": item.Monumenta.Region = map(row[i], "Region"); break;
+			case "Tier": item.Monumenta.Tier = map(row[i], "Tier"); break;
+			case "Type":
 				// if wand generate magic wand prop else do nothing
 				if (row[i] === "Wand") addEnchantment(item, "Magic Wand", 1);
 				break;
-			"Base Item": /* item.type = row[i]; */ break;
-			"Location": item.monumenta.Location = row[i]; break;
-			"Speed": addAttribute(item, "Speed", "add", row[i], slot); break;
-			"Speed %": addAttribute(item, "Speed", "multiply", row[i], slot); break;
-			"Base Attack Damage": addAttribute(item, "Attack Damage", "add", row[i], slot); break;
-			"Base Attack Speed": addAttribute(item, "Attack Speed", "add", row[i], slot); break;
-			"Attack Damage": addAttribute(item, "Attack Damage", "multiply", row[i], slot); break;
-			"Attack Speed": addAttribute(item, "Attack Speed", "add", row[i], slot); break;
-			"Attack Speed %": addAttribute(item, "Attack Speed", "multiply", row[i], slot); break;
-			"Base Proj Damage": addAttribute(item, "Projectile Damage", "add", row[i], slot); break;
-			"Base Proj Speed": addAttribute(item, "Projectile Speed", "multiply", row[i], slot); break;
-			"Proj Damage": addAttribute(item, "Projectile Damage", "multiply", row[i], slot); break;
-			"Proj Speed": addAttribute(item, "Projectile Speed", "multiply", row[i], slot); break;
-			"Armor": addAttribute(item, "Armor", "add", row[i], slot); break; //todo?
-			"Agility": addAttribute(item, "Agility", "add", row[i], slot); break; //todo?
-			"Max Health": addAttribute(item, "Max Health", "add", row[i], slot); break;
-			"Max Health %": addAttribute(item, "Max Health", "multiply", row[i], slot); break;
-			"Base Spell Power": addAttribute(item, "Spell Power", "multiply", row[i], slot); break;
-			"Magic Damage": addAttribute(item, "Magic Damage", "multiply", row[i], slot); break;
-			"Knockback Res.": addAttribute(item, "Knockback Resistance", "add", row[i], slot); break;
-			"Thorns": addAttribute(item, "Thorns Damage", "add", row[i], slot); break;
-			"Thorns Damage": addAttribute(item, "Thorns Damage", "multiply", row[i], slot); break;
-			"Base Throw Rate": addAttribute(item, "Throw Rate", "add", row[i], slot); break;add(item, , , row[i], slot); break;
-			"Shielding": 
-			"Inure": 
-			"Steadfast": 
-			"Evasion": 
-			"Adaptability": 
-			"Feather Falling": 
-			"Life Drain": 
-			"Sustenance": 
-			"Adrenaline": 
-			"Unbreakable": 
-			"Unbreaking": 
-			"Mending": 
-			"Smite": 
-			"Slayer": 
-			"Duelist": 
-			"Sweeping Edge": 
-			"Decay": 
-			"Hex Eater":
-			"Chaotic":
-			"Quake":
-			"Sniper":
-			"Point Blank":
-			"Recoil":
-			"Silk Touch":
-			"Sapper":
-			"Efficiency":
-			"Arcane Thrust": 
-			"Rage of the Keter": 
-			"Protection of the Depths": 
-			"Persistence": 
-			"Ashes of Eternity": 
-			"Abyssal": 
-			"Gills": 
-			"Respiration": 
-			"Aqua Affinity": 
-			"Depth Strider": 
-			"Riptide": 
-			"Inferno": 
-			"Second Wind": 
-			"Regicide": 
-			"Aptitude": 
-			"Retrieval": 
-			"Intuition": 
-			"Radiant": 
-			"Darksight": 
-			"Weightless": 
-			"Two Handed": 
-			"Triage": 
-			"Soul Speed": 
-			"Void Tether": 
-			"Resurrection": 	
-			"Ethereal": 		
-			"Reflexes": 
-			"Tempo": 
-			"Bleeding":
-			"Knockback":
-			"Looting":
-			"Punch":
-			"Quick Charge":
-			"Piercing":
-			"Eruption":
-			"Lure":
-			"Multitool":
-			"Fortune":
-			"Poise": addEnchantment(item, headers[i].trim(), row[i]); break;
-			"Melee Prot.": addEnchantment(item, "Melee Protection", row[i]); break;
-			"Projectile Prot.": addEnchantment(item, "Projectile Protection", row[i]); break;
-			"Magic Prot.": addEnchantment(item, "Magic Protection", row[i]); break;
-			"Blast Prot.": addEnchantment(item, "Blast Protection", row[i]); break;
-			"Fire Prot.": addEnchantment(item, "Fire Protection", row[i]); break;
-			"Regen": addEnchantment(item, "Regeneration", row[i]); break;
-			"Fire Aspect (M)": addEnchantment(item, , row[i]); break;
-			"Ice Aspect (M)": addEnchantment(item, , row[i]); break;
-			"Thunder Aspect (M)": addEnchantment(item, , row[i]); break;
-			"Fire Aspect (P)": addEnchantment(item, , row[i]); break;
-			"Ice Aspect (P)": addEnchantment(item, , row[i]); break;
-			"Thunder Aspect (P)": addEnchantment(item, , row[i]); break;
-			"Infinity (bow)": addEnchantment(item, , row[i]); break;
-			"Multishot": addEnchantment(item, , row[i]); break;
-			"Infinity (tool)": addEnchantment(item, , row[i]); break;
+			case "Base Item": item.meta.type = row[i]; break;
+			case "Location": item.Monumenta.Location = map(row[i], "Location"); break;
+			case "Speed": addAttribute(item, "Speed", "add", row[i], slot); break;
+			case "Speed %": addAttribute(item, "Speed", "multiply", row[i], slot); break;
+			case "Base Attack Damage": addAttribute(item, "Attack Damage", "add", row[i], slot); break;
+			case "Base Attack Speed": addAttribute(item, "Attack Speed", "add", row[i], slot); break;
+			case "Attack Damage": addAttribute(item, "Attack Damage", "multiply", row[i], slot); break;
+			case "Attack Speed": addAttribute(item, "Attack Speed", "add", row[i], slot); break;
+			case "Attack Speed %": addAttribute(item, "Attack Speed", "multiply", row[i], slot); break;
+			case "Base Proj Damage": addAttribute(item, "Projectile Damage", "add", row[i], slot); break;
+			case "Base Proj Speed": addAttribute(item, "Projectile Speed", "multiply", row[i], slot); break;
+			case "Proj Damage": addAttribute(item, "Projectile Damage", "multiply", row[i], slot); break;
+			case "Proj Speed": addAttribute(item, "Projectile Speed", "multiply", row[i], slot); break;
+			case "Armor": addAttribute(item, "Armor", "add", row[i], slot); break; //todo?
+			case "Agility": addAttribute(item, "Agility", "add", row[i], slot); break; //todo?
+			case "Max Health": addAttribute(item, "Max Health", "add", row[i], slot); break;
+			case "Max Health %": addAttribute(item, "Max Health", "multiply", row[i], slot); break;
+			case "Base Spell Power": addAttribute(item, "Spell Power", "multiply", row[i], slot); break;
+			case "Magic Damage": addAttribute(item, "Magic Damage", "multiply", row[i], slot); break;
+			case "Knockback Res.": addAttribute(item, "Knockback Resistance", "add", row[i], slot); break;
+			case "Thorns": addAttribute(item, "Thorns Damage", "add", row[i], slot); break;
+			case "Thorns Damage": addAttribute(item, "Thorns Damage", "multiply", row[i], slot); break;
+			case "Base Throw Rate": addAttribute(item, "Throw Rate", "add", row[i], slot);
+			case "Shielding": 
+			case "Inure": 
+			case "Steadfast": 
+			case "Evasion": 
+			case "Adaptability": 
+			case "Feather Falling": 
+			case "Life Drain": 
+			case "Sustenance": 
+			case "Adrenaline": 
+			case "Unbreakable": 
+			case "Unbreaking": 
+			case "Mending": 
+			case "Smite": 
+			case "Slayer": 
+			case "Duelist": 
+			case "Sweeping Edge": 
+			case "Decay": 
+			case "Hex Eater":
+			case "Chaotic":
+			case "Quake":
+			case "Sniper":
+			case "Point Blank":
+			case "Recoil":
+			case "Silk Touch":
+			case "Sapper":
+			case "Efficiency":
+			case "Arcane Thrust": 
+			case "Rage of the Keter": 
+			case "Protection of the Depths": 
+			case "Persistence": 
+			case "Ashes of Eternity": 
+			case "Abyssal": 
+			case "Gills": 
+			case "Respiration": 
+			case "Aqua Affinity": 
+			case "Depth Strider": 
+			case "Riptide": 
+			case "Inferno": 
+			case "Second Wind": 
+			case "Regicide": 
+			case "Aptitude": 
+			case "Retrieval": 
+			case "Intuition": 
+			case "Radiant": 
+			case "Darksight": 
+			case "Weightless": 
+			case "Two Handed": 
+			case "Triage": 
+			case "Soul Speed": 
+			case "Void Tether": 
+			case "Resurrection": 	
+			case "Ethereal": 		
+			case "Reflexes": 
+			case "Tempo": 
+			case "Bleeding":
+			case "Knockback":
+			case "Looting":
+			case "Punch":
+			case "Quick Charge":
+			case "Piercing":
+			case "Eruption":
+			case "Lure":
+			case "Multitool":
+			case "Fortune":
+			case "Poise": addEnchantment(item, headers[i].trim(), row[i]); break;
+			case "Melee Prot.": addEnchantment(item, "Melee Protection", row[i]); break;
+			case "Projectile Prot.": addEnchantment(item, "Projectile Protection", row[i]); break;
+			case "Magic Prot.": addEnchantment(item, "Magic Protection", row[i]); break;
+			case "Blast Prot.": addEnchantment(item, "Blast Protection", row[i]); break;
+			case "Fire Prot.": addEnchantment(item, "Fire Protection", row[i]); break;
+			case "Regen": addEnchantment(item, "Regeneration", row[i]); break;
+			case "Fire Aspect (M)": addEnchantment(item, "Fire Aspect", row[i]); break;
+			case "Ice Aspect (M)": addEnchantment(item, "Ice Aspect", row[i]); break;
+			case "Thunder Aspect (M)": addEnchantment(item, "Thunder Aspect", row[i]); break;
+			case "Fire Aspect (P)": addEnchantment(item, "Fire Aspect", row[i]); break;
+			case "Ice Aspect (P)": addEnchantment(item, "Ice Aspect", row[i]); break;
+			case "Thunder Aspect (P)": addEnchantment(item, "Thunder Aspect", row[i]); break;
+			case "Infinity (bow)": addEnchantment(item, "Infinity", row[i]); break;
+			case "Multishot": addEnchantment(item, "Multishot", row[i]); break;
+			case "Infinity (tool)": addEnchantment(item, "Infinity", row[i]); break;
 			
-			"Corruption":
-			"Vanishing":
-			"Ineptitude":
-			"Shrapnel":
-			"Irreparability": 
-			"Crippling": 
-			"Anemia": addEnchantment(item, "Curse of " + headers[i].trim(), row[i]);
+			case "Corruption":
+			case "Vanishing":
+			case "Ineptitude":
+			case "Shrapnel":
+			case "Irreparability": 
+			case "Crippling": 
+			case "Anemia": addEnchantment(item, "Curse of " + headers[i].trim(), row[i]); break;
 			default:
-				console.log("Warning, unhandled property", row[i], "on", item.plain.display.Name);
+				console.log("Warning, unhandled property", headers[i], "on", item.plain.display.Name);
 		}
 	}
+	if (slot !== null) {
+		if (slot !== "mainhand") addEnchantment(item, "OffhandMainhandDisable", 1);
+		if (slot !== "offhand") addEnchantment(item, "MainhandOffhandDisable", 1);
+	}
+	//console.log(item);
+	return item;
 }
 
 fs.createReadStream(path_data_raw)
@@ -412,13 +438,17 @@ fs.createReadStream(path_data_raw)
 			row[i] = data[i];
 		}
 		//remove spreadsheet's indexing columns since the name collisions are problematic
-		//results.push(row.slice(0,-7));
+		row.splice(-7);
+		//remove the meta summary columns because same
+		row.splice(9, 16);
+		results.push(row);
 	})
 	.on("end", process);
 	
 		
 function process() {
 	//prune rows with an empty item name column
+	//console.log(results.length, results);
 	results = results.filter(x=>x[1]);	
 	headers = results.shift();	
 	
@@ -427,5 +457,6 @@ function process() {
 		results[i] = itemify(results[i]);
 	}
 	
+	//fs.writeFileSync("data/items.json", JSON.stringify(results, null, "\t"));
 	fs.writeFileSync("data/items.json", JSON.stringify(results));
 }

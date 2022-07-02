@@ -1,4 +1,4 @@
-const path_data_raw = "data/raw/Monumenta Item Spreadsheet v2.2.0 - Item Backend Data.csv";
+const path_data_raw = "./data/raw/Chiinox_ - Item Backend Data.csv";
 
 const csv = require("csv-parser");
 const fs = require("fs");
@@ -53,7 +53,7 @@ function process() {
 	//fs.writeFileSync("data/data.json", JSON.stringify(data, null, "\t"));
 	fs.writeFileSync("data/data.json", JSON.stringify(data));
 	console.log("Items -", results.length);
-	
+	/*
 	let tiers = {};
 	let types = {};
 	let regions = {};
@@ -68,5 +68,6 @@ function process() {
 		bases[results[i][5]]++;
 		//locations[results[i][6]]++;
 	}
-	console.log(tiers, types, regions, locations, bases);
+	*/
+	//console.log(tiers, types, regions, locations, bases);
 }
