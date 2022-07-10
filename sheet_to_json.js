@@ -327,7 +327,7 @@ function itemify(row) {
 			case "Knockback Res.": addAttribute(item, "Knockback Resistance", "add", row[i], slot); break;
 			case "Thorns": addAttribute(item, "Thorns Damage", "add", row[i], slot); break;
 			case "Thorns Damage": addAttribute(item, "Thorns Damage", "multiply", row[i], slot); break;
-			case "Base Throw Rate": addAttribute(item, "Throw Rate", "add", row[i], slot);
+			case "Base Throw Rate": addAttribute(item, "Throw Rate", "add", row[i], slot); break;
 			case "Shielding": 
 			case "Inure": 
 			case "Steadfast": 
