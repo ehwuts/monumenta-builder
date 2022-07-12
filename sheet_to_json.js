@@ -91,7 +91,7 @@ function getIndexFromHeader(h) {
 }
 
 function map(key, map) {
-	if (mappings[map]&&mappings[map][key]) return mappings[map][key];
+	if (mappings[map]&&mappings[map][key]!==undefined) return mappings[map][key];
 	else return "Unknown Value";
 }
 
@@ -184,7 +184,7 @@ Glow Stick ‌[Bedrock and Education editions only] : 100 uses
 	}
 }
 
-function itemify(row) {	
+function itemify(index, row) {	
 	//console.log(row);
 	
 	let item = {
@@ -204,7 +204,8 @@ function itemify(row) {
 	  },
 	  "meta": {
 		  "type": null,
-		  "slot": null
+		  "slot": null,
+		  "index": 
 	  }
 	}
 	//console.log(item);
@@ -257,6 +258,7 @@ function itemify(row) {
 		}
 	})(row[getIndexFromHeader("Type")]);
 	item.meta.slot = slot;
+	item.meta.index = index;
 	
 	const regex_percent = /^[+\-]?\d+(?:\.\d+)?%$/;
 	
@@ -306,7 +308,7 @@ function itemify(row) {
 				if (row[i] === "Wand") addEnchantment(item, "Magic Wand", 1);
 				break;
 			case "Base Item": item.meta.type = row[i]; break;
-			case "Location": item.Monumenta.Location = map(row[i], "Location"); break;
+			case "Location": if (map(row[i], "Location")) item.Monumenta.Location = map(row[i], "Location"); break;
 			case "Speed": addAttribute(item, "Speed", "add", row[i], slot); break;
 			case "Speed %": addAttribute(item, "Speed", "multiply", row[i], slot); break;
 			case "Base Attack Damage": addAttribute(item, "Attack Damage", "add", row[i], slot); break;
@@ -454,9 +456,9 @@ function process() {
 	
 	let L = results.length;
 	for (let i = 0; i < L; i++) {
-		results[i] = itemify(results[i]);
+		results[i] = itemify(i, results[i]);
 	}
 	
 	//fs.writeFileSync("data/items.json", JSON.stringify(results, null, "\t"));
-	fs.writeFileSync("data/items.json", JSON.stringify(results));
+	fs.writeFileSync("data/items.monumenta.json", JSON.stringify(results));
 }

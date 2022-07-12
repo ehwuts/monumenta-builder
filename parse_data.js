@@ -51,7 +51,7 @@ function process() {
 		"data": results
 	};
 	//fs.writeFileSync("data/data.json", JSON.stringify(data, null, "\t"));
-	fs.writeFileSync("data/data.json", JSON.stringify(data));
+	fs.writeFileSync("data/items.chiinox.json", JSON.stringify(data));
 	console.log("Items -", results.length);
 	/*
 	let tiers = {};
