@@ -1,4 +1,4 @@
-const data = require("./data/items.json");
+const data = require("./data/items.monumenta.json");
 const length_data = data.length;
 const slots = ["head", "chest", "legs", "feet", "offhand", "mainhand"];
 
@@ -181,6 +181,11 @@ function getRandomBuild(region = randInt(2), mainhand = randInt(4)) {
 	equipped.Mainhand = mainhands[randInt(mainhands.length)].plain.display.Name;
 	equipped.Offhand = offhands[randInt(offhands.length)].plain.display.Name;
 	
+	return equipped;
+}
+
+function getRandomBuildCLI(region = randInt(2), mainhand = randInt(4)) {
+	let build = getRandomBuild();
 	console.log("Random Build |", region ? "Isles" : "Valley","Items |",["Wand", "Ranged", "Melee", "Dual Sword"][mainhand], "build");
 	console.log(equipped);
 }

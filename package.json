@@ -1,0 +1,24 @@
+{
+  "name": "monumenta-builder",
+  "version": "0.0.1",
+  "private": true,
+  "description": "fiddles with monumenta gear stats",
+  "main": "test.js",
+  "dependencies": { },
+  "devDependencies": {
+    "csv-parser": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehwuts/monumenta-builder.git"
+  },
+  "author": "ehwuts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ehwuts/monumenta-builder/issues"
+  },
+  "homepage": "https://github.com/ehwuts/monumenta-builder#monumenta-builder"
+}

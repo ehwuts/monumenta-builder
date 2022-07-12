@@ -1,4 +1,4 @@
-./fetch.sh
-node parse_data.js
-node sheet_to_json.js
-browserify main.js -o docs/bundle.js
+./util/fetch.sh
+node util/parse_data.js
+node util/sheet_to_json.js
+browserify web/main.js -o docs/bundle.js
