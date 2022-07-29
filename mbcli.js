@@ -1,102 +1,14 @@
 const data = require("./data/items.monumenta.json");
-const length_data = data.length;
-const slots = ["head", "chest", "legs", "feet", "offhand", "mainhand"];
+const util = require("./src/util.monumenta.js");
+
 
 //console.log(JSON.stringify(data[0], null, "  "));
 
-let filter = {};
-
-filter.Valley = x => filterBy(x, "region", "valley");
-filter.Isles = x => filterBy(x, "region", "isles");
-
-filter.Helmets = x => filterBy(x, "slot", "head");
-filter.Chestplates = x => filterBy(x, "slot", "chest");
-filter.Leggings = x => filterBy(x, "slot", "legs");
-filter.Boots = x => filterBy(x, "slot", "feet");
-
-filter.Mainhands = x => filterBy(x, "slot", "mainhand");
-filter.Wands = x => filterBy(x, "enchantments", "Magic Wand");
-filter.Ranged = x => filterBy(x, "slot", "mainhand") && (filterBy(x, "attributes", "Throw Rate") || filterBy(x, "attributes", "Projectile Speed")) && !filterBy(x, "enchantments", "Riptide");
-filter.Melee = x => filterBy(x, "slot", "mainhand") && !((filterBy(x, "attributes", "Throw Rate") || filterBy(x, "attributes", "Projectile Speed")) && !filterBy(x, "enchantments", "Riptide"));
-filter.Mainhand_Swords = x => filterBy(x, "slot", "mainhand") && x.meta.type.toLowerCase().includes("sword");
-
-filter.Offhands = x => filterBy(x, "slot", "offhand");
-filter.Offhand_Swords = x => filterBy(x, "slot", "offhand") && x.meta.type.toLowerCase().includes("sword");
-filter.Offhand_Shields = x => filterBy(x, "slot", "offhand") && x.meta.type === "Shield";
-filter.Offhand_Not_Shield = x => filterBy(x, "slot", "offhand") && x.meta.type !== "Shield";
-
-const cache_names = {};
-
-function indexOfName(name) {
-	if (cache_names[name]) return cache_names[name];
-	
-	for (let i = 0; i < data.length; i++) {
-		if (data[i].plain.display.Name === name) {
-			cache_names[name] = i;
-			return i;
-		}
-	}
-}
-
-function getItem(name) {
-	return data[indexOfName(name)];
-}
-
-function randInt(a, b = 0) {
-	return Math.floor(Math.random() * Math.max(a, b)) + Math.min(a, b);
-}
-
-function getAttribute(item, attribute) {
-	let attributes = item.Monumenta.Stock.Attributes;
-	let results = [];
-	let L = attributes.length;
-	for (let i = 0; i < L; i++) {
-		if (attributes[i].AttributeName === attribute) {
-			results.push([attributes[i].Amount, attributes[i].Operation]);
-		}
-	}
-	//TODO support returning multiple values here, elsewhere
-	return results[0];
-}
-
-function getEnchantment(item, enchantment) {
-	let enchantments = Object.keys(item.Monumenta.Stock.Enchantments);
-	let L = enchantments.length;
-	for (let i = 0; i < L; i++) {
-		if (enchantments[i] === enchantment) {
-			return [item.Monumenta.Stock.Enchantments[enchantments[i]].Level, enchantments[i]];
-		}		
-	}
-	return null;
-}
-
-function filterBy(item, category, content) {
-	//console.log(item.plain.display.Name, category, content);
-	category = category.toLowerCase();
-	switch (category) {
-		case "tier": return (item.Monumenta.Tier === content);
-		case "region": return (item.Monumenta.Region === content);
-		case "slot": return (item.meta.slot === content);
-		case "type": return (item.meta.type === content);
-		case "name": return (item.plain.display.Name.toLowerCase().includes(content.toLowerCase()));
-		case "enchantments": return item.Monumenta.Stock.Enchantments.hasOwnProperty(content);
-		case "location": return item.Monumenta.Location.toLowerCase() === content.toLowerCase();
-		case "attributes": 
-			let attributes = item.Monumenta.Stock.Attributes;
-			let L = attributes.length;
-			for (let j = 0; j < L; j++) {
-				if (attributes[j].AttributeName === content) return true;
-			}
-			return false;
-		default: 
-			throw("Unhanded `filterBy` category:", category);
-	}
-}
 
 function maximizeListifier(results) {
 		let sum = 0;
-		for (let i = 0; i < slots.length; i++) {
-			let slot = results.filter((x) => {return x[0] === slots[i];});
+		for (let i = 0; i < util.slots.length; i++) {
+			let slot = results.filter((x) => {return x[0] === util.slots[i];});
 			let choice = slot.sort((a,b) => { return b[2][0] - a[2][0];});
 			choice = choice.filter((x) => { return x[2][0] === choice[0][2][0]});
 			console.log(choice);
@@ -107,15 +19,16 @@ function maximizeListifier(results) {
 
 function maximizeProperty(which, stat, mainhand = false, region = "all", filter = null) {
 	let results = [];
-	let items = which === "Attribute" ? data.filter(x => filterBy(x, "Attributes", stat)) : data.filter(x => filterBy(x, "Enchantments", stat));
+	which = which.toLowerCase()
+	let items = which === "attribute" ? data.filter(x => util.filterBy(x, "Attributes", stat)) : data.filter(x => util.filterBy(x, "Enchantments", stat));
 	if (filter !== null) items = items.filter(filter);
-	if (!mainhand) items = items.filter(x => !filterBy(x, "slot", "mainhand"));
+	if (!mainhand) items = items.filter(x => !util.filterBy(x, "slot", "mainhand"));
 	
-	//console.log(results.length, results, which, stat);
+	console.log(results.length, results, which, stat);
 	
 	let L = items.length;
 	for (let i = 0; i < items.length; i++) {
-		results.push([items[i].meta.slot, items[i].Monumenta.Region, which === "Attribute" ? getAttribute(items[i], stat) : getEnchantment(items[i], stat), items[i].plain.display.Name]);
+		results.push([items[i].meta.slot, items[i].Monumenta.Region, which === "attribute" ? util.getAttribute(items[i], stat) : util.getEnchantment(items[i], stat), items[i].plain.display.Name]);
 	}
 	results = results.sort((a, b) => { return a[0] < b[0] ? 1 : -1;} );
 	//console.log(results);
@@ -160,34 +73,11 @@ function listEnchantment(enchantment, mainhand = false, region = "all", filter =
 	listProperty("Enchantment", enchantment, mainhand, region, filter);
 }
 
-function getRandomBuild(region = randInt(2), mainhand = randInt(4)) {
-	let equipped = {};
-	
-	let regioned = region ? data.filter(filter.Isles) : data.filter(filter.Valley);	
-	//console.log(regioned);
-	
-	let helmets = regioned.filter(filter.Helmets);
-	let chestplates = regioned.filter(filter.Chestplates);
-	let leggings = regioned.filter(filter.Leggings);
-	let boots = regioned.filter(filter.Boots);
-
-	let mainhands = regioned.filter([filter.Wands, filter.Ranged, filter.Melee, filter.Mainhand_Swords][mainhand]);
-	let offhands = regioned.filter([filter.Offhands, filter.Offhand_Not_Shield, filter.Offhands, filter.Offhand_Swords][mainhand]);
-
-	equipped.Helmet = helmets[randInt(helmets.length)].plain.display.Name;
-	equipped.Chestplate = chestplates[randInt(chestplates.length)].plain.display.Name;
-	equipped.Leggings = leggings[randInt(leggings.length)].plain.display.Name;
-	equipped.Boots = boots[randInt(boots.length)].plain.display.Name;
-	equipped.Mainhand = mainhands[randInt(mainhands.length)].plain.display.Name;
-	equipped.Offhand = offhands[randInt(offhands.length)].plain.display.Name;
-	
-	return equipped;
-}
-
-function getRandomBuildCLI(region = randInt(2), mainhand = randInt(4)) {
-	let build = getRandomBuild();
+function getRandomBuildCLI(region = util.randInt(2), mainhand = util.randInt(4)) {
+	let build = util.getRandomBuild(data, region, mainhand);
 	console.log("Random Build |", region ? "Isles" : "Valley","Items |",["Wand", "Ranged", "Melee", "Dual Sword"][mainhand], "build");
-	console.log(equipped);
+	console.log(build);
+	return build;
 }
 
 function printHelp() {
@@ -201,7 +91,7 @@ function printHelp() {
 if (process.argv.length >= 3) {
 	switch (process.argv[2].toLowerCase()) {
 		case "name":
-			console.log(JSON.stringify(getItem(process.argv[3]), null, "  ")); 
+			console.log(JSON.stringify(util.getItem(process.argv[3]), null, "  ")); 
 			break;
 		case "tier": 
 		case "region": 
@@ -213,7 +103,7 @@ if (process.argv.length >= 3) {
 			let results = [];
 			
 			//console.log(process.argv[2], process.argv[3]);
-			let items = data.filter(x => filterBy(x, process.argv[2], process.argv[3]));
+			let items = data.filter(x => util.filterBy(x, process.argv[2], process.argv[3]));
 			let L = items.length;
 			for (let i = 0; i < items.length; i++) {
 				results.push(items[i].plain.display.Name);
@@ -221,9 +111,9 @@ if (process.argv.length >= 3) {
 			console.log(results.length, results);
 			break;
 		case "random":
-			if (process.argv.length >= 5) getRandomBuild(process.argv[3]|0, process.argv[4]|0);
-			else if (process.argv.length >= 4) getRandomBuild(process.argv[3]|0);
-			else getRandomBuild();
+			if (process.argv.length >= 5) getRandomBuildCLI(process.argv[3]|0, process.argv[4]|0);
+			else if (process.argv.length >= 4) getRandomBuildCLI(process.argv[3]|0);
+			else getRandomBuildCLI();
 			break;
 		case "maximize":
 		{
@@ -240,7 +130,117 @@ if (process.argv.length >= 3) {
 		default:
 			printHelp();
 	}
-	return;
-} else printHelp();
+} else {
+	printHelp();
+	getRandomBuildCLI();
+}
 
-getRandomBuild();
+//console.log(data.filter(util.filterBy()));
+
+
+function speed(region = 2, adrenaline = false, mainhand = true, depthstrider = true) {
+	let items = data.filter(x => util.filterBy(x, "Attributes", "Speed"));
+	if (adrenaline) items = data.filter((x) => util.filterBy(x, "Attributes", "Speed") || util.filterBy(x, "Enchantments", "Adrenaline"));
+	if (!depthstrider) items = items.filter(x => !util.filterBy(x, "Enchantments", "Depth Strider"));
+	if (!mainhand) items = items.filter(x => !util.filterBy(x, "slot", "mainhand"));
+	if (region === 1) items = items.filter(x => util.filterBy(x, "Region", "valley"));
+	//slots = ["head", "chest", "legs", "feet", "offhand", "mainhand"];
+	
+	let slots = [
+		items.filter(x => util.filterBy(x, "slot", "head")),
+		items.filter(x => util.filterBy(x, "slot", "chest")),
+		items.filter(x => util.filterBy(x, "slot", "legs")),
+		items.filter(x => util.filterBy(x, "slot", "feet")),
+		items.filter(x => util.filterBy(x, "slot", "offhand")),
+		items.filter(x => util.filterBy(x, "slot", "mainhand"))
+	];
+	let slot_dicts = [
+		{},
+		{},
+		{},
+		{},
+		{},
+		{}
+	];
+	
+	for (let k = 0; k < slots.length; k++) {
+		if (slots[k].length < 1) continue;
+	
+		for (let i = 0; i < slots[k].length; i++) {
+			let out = {
+				"m" : 0.0,
+				"a" : 0.0,
+				"r" : 0.0,
+				"name" : null
+			}
+			
+			//console.log(util.getAttributes(slots[k][i], "Speed"));
+			let speed = util.getAttributes(slots[k][i], "Speed");
+			for (let j = 0; j < speed.length; j++) {
+				if (speed[j][1] === "multiply") {
+					out.m += speed[j][0];
+				} else {
+					out.a += speed[j][0] || 0;
+				}
+			}
+			out.r = util.getEnchantment(slots[k][i], "Adrenaline") || 0;
+			if (out.r) out.r = out.r[0];
+			out.name = slots[k][i].plain.display.Name;
+			let key = "" + out.m + "_" + out.a + "_" + out.r;
+			
+			if (slot_dicts[k][key]) {
+				slot_dicts[k][key].push(out.name);
+				slots[k][i] = {
+					"m" : 0.0,
+					"a" : 0.0,
+					"r" : 0.0,
+					"name" : null
+				};
+			} else {
+				slot_dicts[k][key] = [out.name];
+				slots[k][i] = out;
+			}
+			
+			//if (out.r) console.log(out);
+			
+			
+		}
+		let max_speed_m = slots[k].sort((a,b) => {return b.m - a.m;})[0].m;
+		//console.log(slots[k][0]);
+		let max_speed_a = slots[k].sort((a,b) => {return b.a - a.a;})[0].a;
+		let max_r = slots[k].sort((a,b) => {return b.r - a.r;})[0].r;
+		//console.log(max_speed_m, max_speed_a, max_r);
+		slots[k] = slots[k].filter(x => (max_speed_m !== 0 && x.m === max_speed_m) || (max_speed_a !== 0 && x.a === max_speed_a) || (max_r !== 0 && x.r === max_r) || (x.m && x.a) || (x.a && x.r) || (x.m && x.r));
+		for (let i = 0; i < slots[k].length; i++) {
+			let key = "" + slots[k][i].m + "_" + slots[k][i].a + "_" + slots[k][i].r;
+			slots[k][i].name = slot_dicts[k][key];
+			console.log(key, slots[k][i].name);
+		}
+		//console.log(slots[k]);
+	}
+	
+	console.log(slots[0].length, slots[1].length, slots[2].length, slots[3].length, slots[4].length, slots[5].length);
+	
+	let builds = [];
+	for (const h of slots[0]) {
+		for (const c of slots[1]) {
+			for (const l of slots[2]) {
+				for (const f of slots[3]) {
+					for (const o of slots[4]) {
+						if (slots[5].length > 0)
+						for (const m of slots[5]) {
+							builds.push([(1 + h.m + c.m + l.m + f.m + o.m + m.m + (adrenaline ? 0.1 : 0) * (h.r + c.r + l.r + f.r + o.r + m.r)) * (1 +10* ( h.a + c.a + l.a + f.a + o.a + m.a)), [h.m + c.m + l.m + f.m + o.m + m.m, h.a + c.a + l.a + f.a + o.a + m.a, h.r + c.r + l.r + f.r + o.r + m.r], h.name, c.name, l.name, f.name, o.name, m.name]);
+						}
+						else builds.push([(1 + h.m + c.m + l.m + f.m + o.m + 0.1 * (h.r + c.r + l.r + f.r + o.r)) * (1 + 10* (h.a + c.a + l.a + f.a + o.a)), [h.m + c.m + l.m + f.m + o.m, h.a + c.a + l.a + f.a + o.a, h.r + c.r + l.r + f.r + o.r], h.name, c.name, l.name, f.name, o.name]);
+					}
+				}
+			}
+		}
+	}
+	//console.log(builds.length);
+	builds.sort((a, b) => { return b[0] - a[0];});
+	let max = builds[0][0];
+	console.log(builds.filter(x => x[0] > max - 0.0001 || x < max + 0.0001), builds.filter(x => x[0] > max - 0.0001 || x < max + 0.0001).length);
+}
+
+speed();

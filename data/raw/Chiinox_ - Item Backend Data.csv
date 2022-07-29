@@ -27,7 +27,7 @@ Bleeding 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16.5,0.9,,,,,,1,,,3,3,,,,
 ,Soul of Ishnir,Isles,Epic,Scythe,Golden Hoe,Isles Delves,,,,,"Regen 1
 Life Drain 1",,+5% Magic Damage,"10.5 Attack Damage
 1.5 Attack Speed",Unbreakable,Hex Eater 1,,,,,,Ashes of Eternity,,,,,,,,,,,,,,,,,,,,1,1,,,,,,,,,,+5%,,,,,,,10.5,1.5,,,,,,1,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,43,,,,13,43
-,Sword of the Exiled,Isles,Epic,Mainhand Sword,Diamond Sword,Isles Delves,,,,,,+10% Speed,,"11.0 Attack Damage
+,Sword of the Exiled,Isles,Epic,Sword <M>,Diamond Sword,Isles Delves,,,,,,+10% Speed,,"11.0 Attack Damage
 1.8 Attack Speed",Unbreakable,Sweeping Edge 3,,,,,,Arcane Thrust 3,,,,,,,,,,,,,,,,,,,,,,,,,+10%,,,,,,,,,,,,,11.0,1.8,,,,,,1,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,13,43,,+10%,,13,43
 ,Ire of the Gods,Isles,Epic,Crossbow,Crossbow,Hekawt,,,,,,,,"26.0 Proj Damage
 3.0 Proj Speed",Mending,,"Infinity
@@ -51,7 +51,7 @@ Magic Prot. 1",Sustenance 2,,"+10% Attack Damage
 ,Frost Giant's Crusher,Isles,Epic,Axe,Iron Axe,Eldrask,,,Shielding 1,,,,,"25.0 Attack Damage
 0.6 Attack Speed",Unbreakable,"Ice Aspect 3
 Knockback 1",,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25.0,0.6,,,,,,1,,,,,,3,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,41,,,,13,41
-,Frost Giant's Greatsword,Isles,Epic,Mainhand Sword,Iron Sword,Eldrask,,,Shielding 1,,,,,"22.0 Attack Damage
+,Frost Giant's Greatsword,Isles,Epic,Sword <M>,Iron Sword,Eldrask,,,Shielding 1,,,,,"22.0 Attack Damage
 0.7 Attack Speed",Unbreakable,"Ice Aspect 3
 Sweeping Edge 1",,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22.0,0.7,,,,,,1,,,,,,3,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,41,,,,13,41
 ,Frost Giant's Staff,Isles,Epic,Wand,Bone,Eldrask,,,Shielding 1,,,,,"+50% Spell Power
@@ -87,7 +87,7 @@ Eruption 3",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+6,,,4.0,1.2,,,,5,,,,,,,,,,,,,
 ,Dryadic Temptation,Isles,Artifact,Offhand Sword,Wooden Sword,Depths,4,,Steadfast 1,,Anemia 2,,+25% Attack Damage,,Unbreakable,,,,,Second Wind 2,,,,,,,,1,,,,,,,,,,,,,,,,,2,,,,,+25%,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,12,40,,,,12,40
 ,Earth's Maw,Isles,Artifact,Helmet,Player Head,Depths,,5.5,"Poise 1
 Adaptability",Projectile Prot. 1,Sustenance 1,+10% Speed,,,,,,,,,,,,,,1,,,,,,,1,,1,,,,,,,,,1,,,+10%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,40,,+10%,,12,40
-,Energized Maelstrom,Isles,Artifact,Mainhand Sword,Iron Sword,Depths,,,,,,,+15% Magic Damage,"11.5 Attack Damage
+,Energized Maelstrom,Isles,Artifact,Sword <M>,Iron Sword,Depths,,,,,,,+15% Magic Damage,"11.5 Attack Damage
 1.6 Attack Speed",Unbreaking 5,Sweeping Edge 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+15%,,,,,,,11.5,1.6,,,,5,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,40,,,,12,40
 ,Firecoral Lance,Isles,Artifact,Trident,Trident,Depths,,,,,,,,"12.0 Attack Damage
 1.2 Attack Speed
@@ -173,9 +173,9 @@ Fire Prot. 2","+4 Max Health
 Regen 1",,,,,,,,,Intuition,,,,,,,,,,,,,,1,2,2,2,2,,+4,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,12,38,20,,,12,38
 ,Marauder's Haze,Isles,Artifact,Scythe,Golden Hoe,Mist,,,Reflexes 1,Melee Prot. 1,,,,"9.0 Attack Damage
 2.0 Attack Speed",Unbreaking 50,,,,,,,,,,,,,,,1,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,9.0,2.0,,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,38,,,,12,38
-,Treasured Rapier,Isles,Artifact,Mainhand Sword,Iron Sword,Mist,,,,,Life Drain 2,,,"11.5 Attack Damage
+,Treasured Rapier,Isles,Artifact,Sword <M>,Iron Sword,Mist,,,,,Life Drain 2,,,"11.5 Attack Damage
 1.4 Attack Speed",Unbreakable,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,11.5,1.4,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,38,,,,12,38
-,Unwavering Will,Isles,Artifact,Mainhand Sword,Iron Sword,Mist,,,Ethereal 1,,,,+2.0 Knockback Res.,"10.0 Attack Damage
+,Unwavering Will,Isles,Artifact,Sword <M>,Iron Sword,Mist,,,Ethereal 1,,,,+2.0 Knockback Res.,"10.0 Attack Damage
 1.6 Attack Speed",Unbreaking 4,Decay 2,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,+2.0,,,,10.0,1.6,,,,4,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,38,,,,12,38
 ,Varcosa's Breeches,Isles,Artifact,Leggings,Leather Leggings,Mist,,7,Tempo 1,Feather Falling 2,,,,,Unbreaking 10,,,,Depth Strider 2,,,,,,,,,,,,,1,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,12,38,,,,12,38
 ,Water's Embrace,Isles,Artifact,Offhand,Gold Nugget,Mist,,3.5,Ethereal 1,Fire Prot. 2,Sustenance 1,,,,,,,,"Abyssal 1
@@ -184,7 +184,7 @@ Gills",,,,,,,,,,1,,,,,,,,,2,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,Ghost Pirate's Hook,Isles,Uncommon,Offhand,Flint and Steel,Mist,,,,"Melee Prot. 2
 Projectile Prot. 2
 Fire Prot. 2",+2 Max Health,,+5% Attack Damage,,,,,,,Inferno 2,,,,,,,,,,,,,,2,2,,,2,,+2,,,,,,,,,,+5%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,7,38,10,,,7,38
-,Swoard,Isles,Uncommon,Mainhand Sword,Wooden Sword,Mist,,,,,,,,"16.0 Attack Damage
+,Swoard,Isles,Uncommon,Sword <M>,Wooden Sword,Mist,,,,,,,,"16.0 Attack Damage
 0.6 Attack Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16.0,0.6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,38,,,,7,38
 ,Blackthread Whip,Isles,Artifact,Offhand Sword,Stone Sword,Horseman,,1,"Ethereal 1
 Reflexes 1",,,-10% Speed,+30% Attack Damage,,Unbreakable,,,,,,,,,,,,,,1,1,,,,,,,,,,,,,,,,,-10%,,,+30%,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,37,,-10%,,12,37
@@ -215,7 +215,7 @@ Anemia 2",,,,Unbreaking 3,,,,,,,,,,,,2,,,,,,,,,,,,,-3,,,,,2,,,,,,,,,,,,,,,,,,,,3
 2.0 Attack Speed",Unbreaking 10,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,9.0,2.0,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,36,,,,12,36
 ,Devouring Wind,Isles,Artifact,Axe,Golden Axe,Rush,,3,,,,,,"14.5 Attack Damage
 1.1 Attack Speed",Unbreaking 35,Thunder Aspect 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.5,1.1,,,,35,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,36,,,,12,36
-,Harmony's End,Isles,Artifact,Mainhand Sword,Stone Sword,Rush,,,,,,,,"16.0 Attack Damage
+,Harmony's End,Isles,Artifact,Sword <M>,Stone Sword,Rush,,,,,,,,"16.0 Attack Damage
 1.0 Attack Speed",Unbreaking 10,,,,,Regicide 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16.0,1.0,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,12,36,,,,12,36
 ,Legionis,Isles,Artifact,Bow,Bow,Rush,,,,,,,,"14.0 Proj Damage
 0.6 Proj Speed",Unbreaking 2,,"Point Blank 8
@@ -237,7 +237,7 @@ Gills",,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,Specter's Visage,Isles,Artifact,Helmet,Player Head,Delves,,8,,Melee Prot. 2,-2 Max Health,,+15% Magic Damage,,,,,,,,,,,,,,,,,,,,,2,,,,,,-2,,,,,,,,,,,,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,35,-10,,,12,35
 ,Studded Gauntlet,Isles,Artifact,Offhand Sword,Iron Sword,Delves,,6,Reflexes 1,,,,+10% Attack Damage,,Unbreakable,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,+10%,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,35,,,,12,35
 ,The Knight's Pledge,Isles,Artifact,Helmet,Player Head,Delves,4,,Steadfast 1,,+4 Max Health,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,+4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,35,20,,,12,35
-,Tournament Longsword,Isles,Artifact,Mainhand Sword,Iron Sword,Delves,3,,,,,,,"11.0 Attack Damage
+,Tournament Longsword,Isles,Artifact,Sword <M>,Iron Sword,Delves,3,,,,,,,"11.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,Duelist 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.0,1.6,,,,3,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,35,,,,12,35
 ,Ward of Light,Isles,Uncommon,Mainhand,Totem of Undying,Delves,,,,,Regen 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,7,35,,,,7,35
 ,Dragonbone Dagger,Isles,Epic,Offhand Sword,Golden Sword,Carnival,,4,,,Regen 1,+0.02 Speed,+40% Attack Damage,,Unbreakable,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,+0.02,,,,+40%,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,34,,+23%,,13,34
@@ -283,7 +283,7 @@ Aqua Affinity",,,,,,,,,,,,,,,,2,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,
 Projectile Prot. 2",,,,,Unbreaking 4,,,,"Abyssal 2
 Gills
 Depth Strider 3",,,,,,,,,,,,,,,1,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,3,,,,,,,,,,,,,,,,,,,,,,,,12,32,,,,12,32
-,Shipwrecker's Sabre,Isles,Artifact,Mainhand Sword,Iron Sword,TOV,,,,,,,,"12.0 Attack Damage
+,Shipwrecker's Sabre,Isles,Artifact,Sword <M>,Iron Sword,TOV,,,,,,,,"12.0 Attack Damage
 1.6 Attack Speed",Unbreaking 4,"Knockback 3
 Decay 5",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.0,1.6,,,,4,,,,,,,,,,3,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,32,,,,12,32
 ,Starboard Mail,Isles,Artifact,Chestplate,Chainmail Chestplate,TOV,6,,,Projectile Prot. 2,,+10% Speed,+15% Proj Damage,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,+10%,,,,,,,+15%,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,32,,+10%,,12,32
@@ -341,7 +341,7 @@ Life Drain 2",Adrenaline 2,,,,,,,,,,,,,,,,,,,,,,,,,3,2,,+6,,,2,,,,,2,,,,,,,,,,,,
 ,Wilting Agent,Isles,Rare,Offhand Sword,Iron Sword,Forum,,5.5,Tempo 1,,-2 Max Health,,+30% Attack Damage,,Unbreakable,,,,,,,,,,,,,,,,,1,,,,,,,,-2,,,,,,,,,,+30%,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,31,-10,,,11,31
 ,Bloody Fang,Isles,Uncommon,Scythe,Iron Hoe,Forum,,,,,Life Drain 4,,,"11.0 Attack Damage
 1.0 Attack Speed",Unbreaking 4,Bleeding 2,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,11.0,1.0,,,,4,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,31,,,,7,31
-,Edge of Tiferet,Isles,Uncommon,Mainhand Sword,Wooden Sword,Forum,,,,,Regen 2,,,"9.0 Attack Damage
+,Edge of Tiferet,Isles,Uncommon,Sword <M>,Wooden Sword,Forum,,,,,Regen 2,,,"9.0 Attack Damage
 1.6 Attack Speed","Unbreaking 3
 Mending",Sweeping Edge 2,,,,Second Wind 1,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,9.0,1.6,,,,3,1,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,7,31,,,,7,31
 ,Paperback Buckler,Isles,Uncommon,Offhand Shield,Shield,Forum,,,,,-2 Max Health,,,,,,,,,Weightless,,,,,,,,,,,,,,,,,,,,-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,7,31,-10,,,7,31
@@ -358,7 +358,7 @@ Feather Falling 1",,+5% Speed,,,Mending,,,,,,,,,,,,,,,,,,,,,,3,,1,,,,,,,,+5%,,,,
 -10% Speed",,,"Unbreaking 1
 Mending",,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,+0.02,-10%,,,,,,,,,,,,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,30,,+13%,,12,30
 ,Aqueduct Greaves,Isles,Rare,Leggings,Leather Leggings,Shifting,,3,,Melee Prot. 3,+20% Max Health,,,,Unbreaking 10,,,,Depth Strider 2,,,,,,,,,,,,,,,3,,,,,,,+20%,,,,,,,,,,,,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,11,30,25,,,11,30
-,Beastblight Machete,Isles,Rare,Mainhand Sword,Iron Sword,Shifting,,,,,,,,"9.5 Attack Damage
+,Beastblight Machete,Isles,Rare,Sword <M>,Iron Sword,Shifting,,,,,,,,"9.5 Attack Damage
 1.6 Attack Speed",Unbreaking 2,Slayer 4,,Efficiency 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.5,1.6,,,,2,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,30,,,,11,30
 ,Celsian Sarissa,Isles,Rare,Offhand Sword,Iron Sword,Shifting,6.5,,,,,,"+20% Attack Damage
 +8 Thorns",,Unbreakable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+20%,,,,,,,+8,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,30,,,,11,30
@@ -407,7 +407,7 @@ Fire Aspect 1
 Infinity",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+16%,,,,,,,,,,,,,,,16.0,5.0,,10,,,,,,,,,,,,,,,,,,3,,1,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,29,,+16%,,11,29
 ,Bercilak,Isles,Rare,Chestplate,Golden Chestplate,Teal,6,,Shielding 1,"Projectile Prot. 1
 Blast Prot. 2",,,+2 Thorns,,Unbreaking 8,,,,,,,,,,1,,,,,,,,,,1,,2,,,,,,,,,,,,,,,,,,,,+2,,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,29,,,,11,29
-,Busturus,Isles,Rare,Mainhand Sword,Iron Sword,Teal,,,,,,,,"10.0 Attack Damage
+,Busturus,Isles,Rare,Sword <M>,Iron Sword,Teal,,,,,,,,"10.0 Attack Damage
 1.6 Attack Speed",Unbreaking 4,"Smite 2
 Duelist 2
 Fire Aspect 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.0,1.6,,,,4,,,,2,,2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,29,,,,11,29
@@ -445,7 +445,7 @@ Projectile Prot. 1",,,+20% Attack Damage,,Unbreaking 9,,,,,,,,,,,,,,,,,,,2,1,,,,
 Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19.0,0.8,,,,7,,,,,,,,,2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,28,,,,11,28
 ,Mutiny,Isles,Rare,Scythe,Iron Hoe,Purple,,,,,,,,"8.0 Attack Damage
 2.0 Attack Speed",Unbreaking 3,Duelist 2,,,,Regicide 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,2.0,,,,3,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,11,28,,,,11,28
-,Phantom Cutlass,Isles,Rare,Mainhand Sword,Iron Sword,Purple,,,Ethereal 1,,,,,"9.5 Attack Damage
+,Phantom Cutlass,Isles,Rare,Sword <M>,Iron Sword,Purple,,,Ethereal 1,,,,,"9.5 Attack Damage
 1.6 Attack Speed",Unbreaking 3,Decay 2,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.5,1.6,,,,3,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,28,,,,11,28
 ,Rusty Diving Helmet,Isles,Rare,Helmet,Player Head,Purple,8.5,,,,,,,,,,,,"Respiration 3
 Aqua Affinity",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,,,,,,,,,,,,,,,,,,,,,,11,28,,,,11,28
@@ -497,7 +497,7 @@ Knockback 2",,,,Inferno 4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.0,1.0,,,,3,1
 4.0 Attack Speed",,"Fire Aspect 2
 Bleeding 2",,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,+55%,6.0,4.0,,,,,,,,,,,2,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,27,,,,11,27
 ,Phlegethon Visage,Isles,Rare,Helmet,Leather Helmet,Cyan,,5,,Fire Prot. 8,+2 Max Health,,+3 Thorns,,Unbreaking 7,,,,,,,,,,,,,,,,,,,,,,,8,,+2,,,,,,,,,,,,,,,,,+3,,,,,,,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,27,10,,,11,27
-,Putrid Maw,Isles,Rare,Mainhand Sword,Iron Sword,Cyan,,,,,,,,"8.0 Attack Damage
+,Putrid Maw,Isles,Rare,Sword <M>,Iron Sword,Cyan,,,,,,,,"8.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,"Smite 3
 Slayer 3",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,1.6,,,,3,,,,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,27,,,,11,27
 ,Wit's End,Isles,Rare,Leggings,Leather Leggings,Cyan,,10,,Magic Prot. 2,-2 Max Health,,,,Unbreaking 8,,,,,,,,,,,,,,,,,,,,,2,,,,-2,,,,,,,,,,,,,,,,,,,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,27,-10,,,11,27
@@ -519,7 +519,7 @@ Magic Prot. 4",,+10% Speed,"+10% Attack Damage
 +10% Magic Damage",,Unbreakable,,,,,,,,,,,,,,,,,,,4,4,4,,,,,,,,,,,+10%,,,+10%,,,+10%,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,26,,+10%,,12,26
 ,Boots of Alutana,Isles,Rare,Boots,Chainmail Boots,Light Gray,7,,,Projectile Prot. 4,,+5% Speed,+5% Proj Damage,,Unbreaking 4,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,+5%,,,,,,,+5%,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,26,,+5%,,11,26
 ,Brightbind,Isles,Rare,Leggings,Chainmail Leggings,Light Gray,8.5,,,,,,+2.0 Knockback Res.,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+2.0,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,26,,,,11,26
-,Chainbreaker's Blight,Isles,Rare,Mainhand Sword,Iron Sword,Light Gray,,,,,,,+6 Thorns,"11.0 Attack Damage
+,Chainbreaker's Blight,Isles,Rare,Sword <M>,Iron Sword,Light Gray,,,,,,,+6 Thorns,"11.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,Ice Aspect 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+6,,,11.0,1.6,,,,3,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,26,,,,11,26
 ,Lunar Great Helm,Isles,Rare,Helmet,Player Head,Light Gray,6,,,,,-12% Speed,+10.0 Knockback Res.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-12%,,,,,,,,,+10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,26,,-12%,,11,26
 ,Mirrorshard Scythe,Isles,Rare,Scythe,Iron Hoe,Light Gray,,,,,,,,"9.0 Attack Damage
@@ -548,7 +548,7 @@ Feather Falling 2",+2 Max Health,,,,Mending,,,,,,,,,,,,,,,,,,,,,2,,,2,+2,,,,,,,,
 ,Silkshine Trousers,Isles,Uncommon,Leggings,Leather Leggings,Light Gray,,6.5,,Magic Prot. 2,,+10% Speed,,,Mending,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,+10%,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,26,,+10%,,7,26
 ,Akam's Ferocity,Isles,Rare,Offhand Sword,Iron Sword,Gray,,5,,,Regen 2,,+0.10 Attack Speed,,Unbreakable,,,,,Regicide 1,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,+0.10,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,11,25,,,+8%,11,25
 ,Ammi's Embrace,Isles,Rare,Leggings,Leather Leggings,Gray,6.5,,,Melee Prot. 3,,-5% Speed,,,Unbreaking 7,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,-5%,,,,,,,,,,,,,,,,,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,25,,-5%,,11,25
-,Dutiful Blade,Isles,Rare,Mainhand Sword,Stone Sword,Gray,,,Steadfast 1,Projectile Prot. 2,,,,"9.5 Attack Damage
+,Dutiful Blade,Isles,Rare,Sword <M>,Stone Sword,Gray,,,Steadfast 1,Projectile Prot. 2,,,,"9.5 Attack Damage
 1.6 Attack Speed",Unbreakable,,,,,,,,,,,,,1,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,9.5,1.6,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,25,,,,11,25
 ,Erebus,Isles,Rare,Axe,Stone Axe,Gray,,,,,Life Drain 1,,,"15.5 Attack Damage
 0.8 Attack Speed",Unbreaking 7,Smite 3,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,15.5,0.8,,,,7,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,25,,,,11,25
@@ -586,7 +586,7 @@ Fire Prot. 3",+2 Max Health,,+15% Attack Damage,,Mending,,,,,,,,,,,,,,,,,,,3,3,,
 ,Evergreen Boots,Isles,Rare,Boots,Leather Boots,Pink,,6,,"Melee Prot. 1
 Feather Falling 1",,,+15% Attack Damage,,Unbreaking 7,,,,,,,,,,,,,,,,,,,1,,,,,1,,,,,,,,,,,+15%,,,,,,,,,,,,,,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,24,,,,11,24
 ,Fractured Threads,Isles,Rare,Leggings,Chainmail Leggings,Pink,,5.5,,Melee Prot. 3,,+15% Speed,,,Unbreaking 2,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,+15%,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,24,,+15%,,11,24
-,Harmonic Wrath,Isles,Rare,Mainhand Sword,Iron Sword,Pink,,,,,,,,"10.5 Attack Damage
+,Harmonic Wrath,Isles,Rare,Sword <M>,Iron Sword,Pink,,,,,,,,"10.5 Attack Damage
 1.6 Attack Speed",Unbreaking 3,"Fire Aspect 2
 Ice Aspect 2
 Thunder Aspect 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.5,1.6,,,,3,,,,,,,2,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,24,,,,11,24
@@ -664,7 +664,7 @@ Depth Strider 1",,,,,,,,,,,,,,,2,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,
 Blast Prot. 2",,,,,Unbreaking 1,,,,"Respiration 2
 Depth Strider 1",,,,,,,,,,,,,,,2,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,1,,,,,,,,,,,,,,,,,,,,,,,,7,23,,,,7,23
 ,Frost Giant's Crown,Isles,Epic,Helmet,Iron Helmet,Isles Casino,8,,Shielding 1,,,-5% Speed,+2.0 Knockback Res.,,Unbreakable,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,-5%,,,,,,,,,+2.0,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,22,,-5%,,13,22
-,Amaranth Blade,Isles,Rare,Mainhand Sword,Iron Sword,Isles Casino,,,,,,,,"10.0 Attack Damage
+,Amaranth Blade,Isles,Rare,Sword <M>,Iron Sword,Isles Casino,,,,,,,,"10.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,Fire Aspect 10,,,,Inferno 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.0,1.6,,,,2,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,11,22,,,,11,22
 ,Archeologist's Hammer,Isles,Rare,Axe,Stone Axe,Isles Casino,,,,,,,,"18.0 Attack Damage
 0.8 Attack Speed",Unbreaking 7,Duelist 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18.0,0.8,,,,7,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,22,,,,11,22
@@ -692,13 +692,13 @@ Fire Prot. 1",,+15% Speed,,,Unbreaking 4,,,,,,,,,,,,,,,,,,,,1,,,1,,,,,,,,,+15%,,
 4.0 Attack Speed",,"Fire Aspect 1
 Thunder Aspect 3",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+55%,6.0,4.0,,,,,,,,,,,1,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,22,,,,11,22
 ,True Ice Shroud,Isles,Rare,Chestplate,Chainmail Chestplate,Isles Casino,4,,Poise 1,,+2 Max Health,,,,Unbreaking 3,,,,,,,,,,,1,,,,,,,,,,,,,,+2,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,22,10,,,11,22
-,True Ice Splinter,Isles,Rare,Mainhand Sword,Iron Sword,Isles Casino,,,,,,+12% Speed,,"10.0 Attack Damage
+,True Ice Splinter,Isles,Rare,Sword <M>,Iron Sword,Isles Casino,,,,,,+12% Speed,,"10.0 Attack Damage
 1.6 Attack Speed",Unbreaking 10,"Ice Aspect 1
 Sweeping Edge 5",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+12%,,,,,,,,,,,,,10.0,1.6,,,,10,,,,,,,,1,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,22,,+12%,,11,22
 ,Wispleaf Wall,Isles,Rare,Offhand Shield,Shield,Isles Casino,,3,,,+4 Max Health,-5% Speed,+4 Thorns,,Unbreaking 2,,,,,,,,,,,,,,,,,,,,,,,,,+4,,,,,,,-5%,,,,,,,,,,+4,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,22,20,-5%,,11,22
 ,Wispleaf Ward,Isles,Rare,Offhand Sword,Wooden Sword,Isles Casino,,3,,,+7 Max Health,+5% Speed,,,Unbreakable,,,,,,,,,,,,,,,,,,,,,,,,,+7,,,,,,,+5%,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,22,35,+5%,,11,22
 ,Crystallizer (u),Isles,Artifact,Misc,Emerald,Isles Overworld,,,,,,,,,,,,,,,,,Convert tiered items to currency,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,21,,,,12,21
-,Dissolvi Ombre,Isles,Artifact,Mainhand Sword,Stone Sword,Isles Overworld,,,,,,,,"8.0 Attack Damage
+,Dissolvi Ombre,Isles,Artifact,Sword <M>,Stone Sword,Isles Overworld,,,,,,,,"8.0 Attack Damage
 1.6 Attack Speed",Unbreaking 10,"Smite 4
 Fire Aspect 1
 Knockback 1
@@ -723,7 +723,7 @@ Decay 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+2.0,,,+60%,5.5,4.0,,,,,,,,,,,,2
 2.0 Attack Speed",Unbreaking 3,"Smite 2
 Ice Aspect 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.5,2.0,,,,3,,,,2,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,21,,,,11,21
 ,Icicle's Bulwark,Isles,Rare,Offhand Shield,Shield,Isles Overworld,4.5,,,,+2 Max Health,,,,Unbreaking 2,,,,,,,,,,,,,,,,,,,,,,,,,+2,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,21,10,,,11,21
-,Mage Hunter's Blade,Isles,Rare,Mainhand Sword,Iron Sword,Isles Overworld,,,,Magic Prot. 2,,,,"10.5 Attack Damage
+,Mage Hunter's Blade,Isles,Rare,Sword <M>,Iron Sword,Isles Overworld,,,,Magic Prot. 2,,,,"10.5 Attack Damage
 1.6 Attack Speed",Unbreaking 3,Hex Eater 1,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,10.5,1.6,,,,3,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,21,,,,11,21
 ,Molta's Labor,Isles,Rare,Pickaxe,Iron Pickaxe,Isles Overworld,,,,Fire Prot. 2,,+15% Speed,,"4.0 Attack Damage
 1.2 Attack Speed",Unbreaking 2,Fire Aspect 2,,Efficiency 2,,Inferno 2,,,,,,,,,,,,,,,,,,2,,,,,,,,,+15%,,,,,,,,,,,,,4.0,1.2,,,,2,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,11,21,,+15%,,11,21
@@ -732,7 +732,7 @@ Ice Aspect 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.5,2.0,,,,3,,,,2,,,,2,
 Multitool 1",,,,,Multitool Axe/Shovel,,,,,,,,,,,,,,,,,,,,,,,,+10%,,,,,,,,,,,,,4.0,1.2,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,21,,+10%,,11,21
 ,Oasis Mail,Isles,Rare,Chestplate,Chainmail Chestplate,Isles Overworld,5,,,,"+2 Max Health
 Regen 1",,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,,,,,+2,,1,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,21,10,,,11,21
-,Oasis Scimitar,Isles,Rare,Mainhand Sword,Iron Sword,Isles Overworld,,,,Melee Prot. 1,Regen 1,,,"9.0 Attack Damage
+,Oasis Scimitar,Isles,Rare,Sword <M>,Iron Sword,Isles Overworld,,,,Melee Prot. 1,Regen 1,,,"9.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,Smite 2,,,,,,,,,,,,,,,,,,1,,,,,,,,1,,,,,,,,,,,,,,,,,,9.0,1.6,,,,2,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,21,,,,11,21
 ,Phantom Flintlock,Isles,Rare,Crossbow,Crossbow,Isles Overworld,,,,,,,,"15.0 Proj Damage
 1.0 Proj Speed",Unbreaking 1,,"Quick Charge 1
@@ -809,7 +809,7 @@ Depth Strider 3",,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,
 20.0 Proj Damage
 0.8 Proj Speed
 0.9 Throw Rate",Mending,Hex Eater 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.0,1.1,20.0,0.8,0.9,,1,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,21,,,,7,21
-,Swordfish,Isles,Uncommon,Mainhand Sword,Iron Sword,Isles Overworld,,,,,,,,"7.5 Attack Damage
+,Swordfish,Isles,Uncommon,Sword <M>,Iron Sword,Isles Overworld,,,,,,,,"7.5 Attack Damage
 1.6 Attack Speed",Unbreaking 1,Sweeping Edge 10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.5,1.6,,,,1,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,21,,,,7,21
 ,Terracotta Warpick,Isles,Uncommon,Pickaxe,Golden Pickaxe,Isles Overworld,,,,,,,,"10.0 Attack Damage
 1.2 Attack Speed",Unbreaking 10,"Fire Aspect 2
@@ -822,7 +822,7 @@ Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.0,1.2,,,,10,,,,,,,2,,
 ,Waveborn Bow,Isles,Uncommon,Bow,Bow,Isles Overworld,,,,,,,,"12.0 Proj Damage
 1.0 Proj Speed",Mending,,"Punch 4
 Infinity",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.0,1.0,,,1,,,,,,,,,,,,,,,,,,,,,,4,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,21,,,,7,21
-,Webripper,Isles,Uncommon,Mainhand Sword,Iron Sword,Isles Overworld,,,,,,,,"7.5 Attack Damage
+,Webripper,Isles,Uncommon,Sword <M>,Iron Sword,Isles Overworld,,,,,,,,"7.5 Attack Damage
 1.6 Attack Speed",Mending,"Slayer 2
 Sweeping Edge 1",,Efficiency 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.5,1.6,,,,,1,,,,2,,,,,,1,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,21,,,,7,21
 ,Wolf Fur Coat,Isles,Uncommon,Chestplate,Leather Chestplate,Isles Overworld,5,5,,,,,-10% Attack Speed,,Unbreaking 6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-10%,,,,,,,,,,,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,21,,,-10%,7,21
@@ -900,7 +900,7 @@ Feather Falling 2","-2 Max Health
 ,Dreambreaker,Isles,Patron,Pickaxe,Golden Pickaxe,Celsian Isles,,,,,,,,"4.0 Attack Damage
 1.2 Attack Speed",Unbreakable,,,"Efficiency 3
 Shrapnel 50",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.2,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,20,,,,10,20
-,Eclipse Splitter,Isles,Patron,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"48.0 Attack Damage
+,Eclipse Splitter,Isles,Patron,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"48.0 Attack Damage
 0.4 Attack Speed",Unbreaking 4,"Smite 1
 Sweeping Edge 5",,,,,Two Handed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48.0,0.4,,,,4,,,,1,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,10,20,,,,10,20
 ,Emblem of the Last Gift,Isles,Patron,Chestplate,Golden Chestplate,Celsian Isles,,5,Reflexes 1,,Sustenance 1,,,,Unbreaking 5,,,,,Second Wind 1,,,,,,,,,,1,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,10,20,,,,10,20
@@ -1000,11 +1000,11 @@ Quake 1",,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,8.0,1.4,,,,30,,,,,,,,,,,,,,
 ,Mitten of Madness,Isles,Patron,Scythe,Golden Hoe,Celsian Isles,,,,"Melee Prot. 3
 Magic Prot. 3",,,+15% Magic Damage,"15.0 Attack Damage
 1.5 Attack Speed",Unbreakable,Fire Aspect 1,,,,Inferno 3,Two Handed,,,,,,,,,,,,,3,,3,,,,,,,,,,,,,,,,,+15%,,,,,,,15.0,1.5,,,,,,1,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,1,,,,,,,10,20,,,,10,20
-,Moon's Shadow,Isles,Patron,Mainhand Sword,Stone Sword,Celsian Isles,,,,"Melee Prot. 2
+,Moon's Shadow,Isles,Patron,Sword <M>,Stone Sword,Celsian Isles,,,,"Melee Prot. 2
 Magic Prot. 1",Regen 1,,,"10.0 Attack Damage
 1.6 Attack Speed",Unbreaking 5,,,,,,,,,,,,,,,,,,,2,,1,,,,,,1,,,,,,,,,,,,,,,,,,10.0,1.6,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,20,,,,10,20
 ,Necronomicon,Isles,Patron,Misc,Book,Celsian Isles,,,,,,,,,,,,,,,,,Spend EXP to disperse negative effects,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,20,,,,10,20
-,Nightfall,Isles,Patron,Mainhand Sword,Iron Sword,Celsian Isles,,,,Melee Prot. 2,,,,"7.0 Attack Damage
+,Nightfall,Isles,Patron,Sword <M>,Iron Sword,Celsian Isles,,,,Melee Prot. 2,,,,"7.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,Duelist 4,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,7.0,1.6,,,,2,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,20,,,,10,20
 ,Nightsister,Isles,Patron,Offhand Shield,Shield,Celsian Isles,,3.5,,,,+15% Speed,+4.0 Knockback Res.,,Mending,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+15%,,,,,,,,,+4.0,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,20,,+15%,,10,20
 ,Ordinary Staff,Isles,Patron,Wand,Blaze Rod,Celsian Isles,,,,,,,,+55% Spell Power,,Fire Aspect 3,,,,Inferno 5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+55%,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,10,20,,,,10,20
@@ -1042,7 +1042,7 @@ Sustenance 2",+16% Speed,+2 Thorns,,Unbreakable,Knockback 2,,,,,,,,,,,,,,,,,,,2,
 ,Stalker's Repeater,Isles,Patron,Crossbow,Crossbow,Celsian Isles,,,Evasion 1,,,,,"18.0 Proj Damage
 1.5 Proj Speed",Unbreaking 2,,"Infinity
 Quick Charge 1",,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18.0,1.5,,2,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,20,,,,10,20
-,Sunrise,Isles,Patron,Mainhand Sword,Iron Sword,Celsian Isles,,,,Fire Prot. 2,,,,"7.0 Attack Damage
+,Sunrise,Isles,Patron,Sword <M>,Iron Sword,Celsian Isles,,,,Fire Prot. 2,,,,"7.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,Slayer 4,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,7.0,1.6,,,,2,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,20,,,,10,20
 ,The Fine Print,Isles,Patron,Offhand,Paper,Celsian Isles,,3.5,"Poise 2
 Adaptability","Melee Prot. 2
@@ -1065,7 +1065,7 @@ Piercing 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15.0,1.5,,2,,,,,,,,,,,,,
 ,Voodoo Brew - Zero Ultra,Isles,Patron,Consumable,Potion,Celsian Isles,3,,,,,Adrenaline 1,+25% Attack Damage,,,,,Infinity,,,,,"Haste 1 for 13 secs, Starvation 6, stats from offhand",,,,,,,,,,,,,,,,,,,,,,,,,1,,+25%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,20,,,,10,20
 ,Wavering Omen,Isles,Patron,Boots,Leather Boots,Celsian Isles,4,,"Reflexes 1
 Adaptability",,+2 Max Health,,+10% Magic Damage,,Unbreaking 15,,,,,,,,,,,,,,,1,,,1,,,,,,,+2,,,,,,,,,,,,,+10%,,,,,,,,,,,,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,20,10,,,10,20
-,Wilt,Isles,Patron,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"9.0 Attack Damage
+,Wilt,Isles,Patron,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"9.0 Attack Damage
 2.0 Attack Speed",Unbreakable,"Thunder Aspect 2
 Sweeping Edge 3",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.0,2.0,,,,,,1,,,,,,,2,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,20,,,,10,20
 ,7 Grain Loaf,Isles,Unique,Consumable,Bread,Celsian Isles,,,,,,,,,,,,Infinity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,,,,9,20
@@ -1099,7 +1099,7 @@ Feather Falling 2",+2 Max Health,,+2.0 Knockback Res.,,,,,,,,,,,,,,,,,,,,,,,,2,2
 1.6 Attack Speed",Unbreaking 4,Sweeping Edge 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+2.0,+2,,+60%,9.0,1.6,,,,4,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,,,,9,20
 ,Calvarium,Isles,Unique,Axe,Diamond Axe,Celsian Isles,,,,,,,,"17.5 Attack Damage
 1.0 Attack Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17.5,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,,,,9,20
-,Celsian Heraldic Blade,Isles,Unique,Mainhand Sword,Iron Sword,Celsian Isles,1.5,1.5,,,,,,"10.5 Attack Damage
+,Celsian Heraldic Blade,Isles,Unique,Sword <M>,Iron Sword,Celsian Isles,1.5,1.5,,,,,,"10.5 Attack Damage
 1.6 Attack Speed",Unbreaking 3,Sweeping Edge 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.5,1.6,,,,3,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,,,,9,20
 ,Crest of Celsia,Isles,Unique,Bow,Bow,Celsian Isles,,,,,Regen 1,,,"22.0 Proj Damage
 1.0 Proj Speed",Unbreaking 3,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,22.0,1.0,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,,,,9,20
@@ -1127,9 +1127,9 @@ Magic Prot. 2",+3 Max Health,,+15% Attack Damage,,,,,,,,,,,,,,,,,,,,,2,2,2,,,,+3
 +10% Max Health","+10% Speed
 Adrenaline 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,+2,+10%,,,,,,+10%,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,22.5,+10%,,9,20
 ,Merchant's Curio,Isles,Unique,Offhand,Shears,Celsian Isles,,8,,,,+15% Speed,-20% Attack Damage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+15%,,,-20%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,,+15%,,9,20
-,Monshee's Judgement,Isles,Unique,Mainhand Sword,Golden Sword,Celsian Isles,,,,,,,,"24.0 Attack Damage
+,Monshee's Judgement,Isles,Unique,Sword <M>,Golden Sword,Celsian Isles,,,,,,,,"24.0 Attack Damage
 1.4 Attack Speed",Unbreaking 3,,,,,,Two Handed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24.0,1.4,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,9,20,,,,9,20
-,Myriad's Rapier,Isles,Unique,Mainhand Sword,Golden Sword,Celsian Isles,,,,,,,,"11.5 Attack Damage
+,Myriad's Rapier,Isles,Unique,Sword <M>,Golden Sword,Celsian Isles,,,,,,,,"11.5 Attack Damage
 1.6 Attack Speed","Unbreaking 2
 Mending","Decay 3
 Bleeding 2",,Efficiency 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.5,1.6,,,,2,1,,,,,,,,,,,3,,2,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,,,,9,20
@@ -1154,7 +1154,7 @@ Quick Charge 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.0,1.5,,1,,,,,,,,,
 1.0 Proj Speed",Unbreaking 2,,"Infinity
 Quick Charge 2
 Recoil 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.0,,2,,,,,,,,,,,,,,,,,,,,,,,,1,2,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,,,,9,20
-,Rootstrike,Isles,Unique,Mainhand Sword,Stone Sword,Celsian Isles,,,,,,,+3.0 Knockback Res.,"15.0 Attack Damage
+,Rootstrike,Isles,Unique,Sword <M>,Stone Sword,Celsian Isles,,,,,,,+3.0 Knockback Res.,"15.0 Attack Damage
 1.0 Attack Speed",Unbreaking 10,"Ice Aspect 3
 Sweeping Edge 3",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+3.0,,,,15.0,1.0,,,,10,,,,,,,,3,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,,,,9,20
 ,Royal Shield,Isles,Unique,Offhand Shield,Shield,Celsian Isles,3,,,,,,"+13% Attack Damage
@@ -1167,7 +1167,7 @@ Magic Prot. 1
 Fire Prot. 1",,+5% Speed,+2.0 Knockback Res.,,,,,,Gills,,,,,,,,,,,,,,,1,,1,,1,,,,,,,,,+5%,,,,,,,,,+2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,,+5%,,9,20
 ,Shimmerscale Remnant,Isles,Unique,Helmet,Turtle Helmet,Celsian Isles,,4.5,,,,,+2.0 Knockback Res.,,Unbreaking 1,,,,"Respiration 3
 Aqua Affinity",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+2.0,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,,,,,,,,,,,,,,,,,,,,,,9,20,,,,9,20
-,Stablemaster's Prod,Isles,Unique,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"7.5 Attack Damage
+,Stablemaster's Prod,Isles,Unique,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"7.5 Attack Damage
 1.6 Attack Speed",Unbreaking 3,"Fire Aspect 3
 Knockback 3",,,,Inferno 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.5,1.6,,,,3,,,,,,,3,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,9,20,,,,9,20
 ,Swiftbreeze,Isles,Unique,Misc,Fishing Rod,Celsian Isles,,,,,,+10% Speed,,,Unbreakable,,,Lure 4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+10%,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,,+10%,,9,20
@@ -1235,7 +1235,7 @@ Feather Falling 7",,+13% Speed,,,Mending,,,,,,,,,,,,,,,,,,,2,,,,,7,,,,,,,,+13%,,
 ,Boots of the Blizzard,Isles,Tier 5,Boots,Chainmail Boots,Celsian Isles,5,5,,,,-5% Speed,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-5%,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,,-5%,,6,20
 ,Boots of the Sandstorm,Isles,Tier 5,Boots,Leather Boots,Celsian Isles,,4.5,,"Melee Prot. 2
 Fire Prot. 2",,,+10% Attack Damage,,Unbreaking 6,,,,,,,,,,,,,,,,,,,2,,,,2,,,,,,,,,,,,+10%,,,,,,,,,,,,,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,,,,6,20
-,Brutal Longsword,Isles,Tier 5,Mainhand Sword,Stone Sword,Celsian Isles,,,,,,,,"10.5 Attack Damage
+,Brutal Longsword,Isles,Tier 5,Sword <M>,Stone Sword,Celsian Isles,,,,,,,,"10.5 Attack Damage
 1.6 Attack Speed",Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.5,1.6,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,,,,6,20
 ,Burned Knowledge,Isles,Tier 5,Offhand,Book,Celsian Isles,3.5,,,Melee Prot. 2,,,+17% Magic Damage,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,+17%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,,,,6,20
 ,Cape of the Blizzard,Isles,Tier 5,Chestplate,Chainmail Chestplate,Celsian Isles,5,5,,,,-5% Speed,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-5%,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,,-5%,,6,20
@@ -1252,7 +1252,7 @@ Ice Aspect 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.5,2.0,,,,1,,,,,3,,,1,
 ,Deadweight Cannon,Isles,Tier 5,Crossbow,Crossbow,Celsian Isles,,,,,,,,"20.0 Proj Damage
 0.9 Proj Speed",Unbreaking 2,,"Point Blank 1
 Fire Aspect 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20.0,0.9,,2,,,,,,,,,,,,,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,,,,6,20
-,Everlasting Falchion,Isles,Tier 5,Mainhand Sword,Golden Sword,Celsian Isles,,,,,,,,"8.5 Attack Damage
+,Everlasting Falchion,Isles,Tier 5,Sword <M>,Golden Sword,Celsian Isles,,,,,,,,"8.5 Attack Damage
 1.6 Attack Speed","Unbreaking 2
 Mending",Thunder Aspect 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.5,1.6,,,,2,1,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,,,,6,20
 ,Final Cresent,Isles,Tier 5,Bow,Bow,Celsian Isles,,,,,,,,"20.0 Proj Damage
@@ -1261,7 +1261,7 @@ Mending",Thunder Aspect 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.5,1.6,,,,
 4.5 Attack Damage
 4.0 Attack Speed",,"Fire Aspect 2
 Knockback 1",,,,Inferno 1,,,,,,,,,,,,,,,,,,,,,,,,,,,+15%,,,,,,,,,,,,+50%,4.5,4.0,,,,,,,,,,,2,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,6,20,,+15%,,6,20
-,Gleaming Edge,Isles,Tier 5,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"7.5 Attack Damage
+,Gleaming Edge,Isles,Tier 5,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"7.5 Attack Damage
 1.6 Attack Speed",Unbreaking 1,"Smite 2
 Fire Aspect 1
 Thunder Aspect 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.5,1.6,,,,1,,,,2,,,1,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,,,,6,20
@@ -1301,7 +1301,7 @@ Fortune 4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.2,,,,,,,,,,,,,,,,,,,,,
 ,Paladin's Helm,Isles,Tier 5,Helmet,Chainmail Helmet,Celsian Isles,5,,,Projectile Prot. 3,+2 Max Health,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,3,,,,,+2,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,10,,,6,20
 ,Paladin's Maille (chestplate),Isles,Tier 5,Chestplate,Chainmail Chestplate,Celsian Isles,5,,,Projectile Prot. 3,+2 Max Health,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,3,,,,,+2,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,10,,,6,20
 ,Paladin's Maille (leggings),Isles,Tier 5,Leggings,Chainmail Leggings,Celsian Isles,5,,,Projectile Prot. 3,+2 Max Health,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,3,,,,,+2,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,10,,,6,20
-,Perilous Zweihander,Isles,Tier 5,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"9.0 Attack Damage
+,Perilous Zweihander,Isles,Tier 5,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"9.0 Attack Damage
 1.6 Attack Speed",Unbreaking 1,Sweeping Edge 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.0,1.6,,,,1,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,,,,6,20
 ,Permafrost Spellblade,Isles,Tier 5,Wand,Iron Sword,Celsian Isles,,,,,,,,"+50% Spell Power
 9.0 Attack Damage
@@ -1328,7 +1328,7 @@ Magic Prot. 2",+4 Max Health,,,,Mending,,,,,,,,,,,,,,,,,,,,2,2,,,,+4,,,,,,,,,,,,
 0.9 Attack Speed",Mending,Knockback 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.5,0.9,,,,,1,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,,,,6,20
 ,Spirit Skiver,Isles,Tier 5,Scythe,Iron Hoe,Celsian Isles,,,,,,,,"8.0 Attack Damage
 2.0 Attack Speed",Mending,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,2.0,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,,,,6,20
-,Spore's Bane,Isles,Tier 5,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"9.0 Attack Damage
+,Spore's Bane,Isles,Tier 5,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"9.0 Attack Damage
 1.6 Attack Speed",Unbreaking 1,"Slayer 2
 Knockback 1",,Efficiency 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.0,1.6,,,,1,,,,,2,,,,,1,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,,,,6,20
 ,Tenebrous Cap,Isles,Tier 5,Helmet,Leather Helmet,Celsian Isles,,6.5,,Feather Falling 3,,+5% Speed,,,Unbreaking 7,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,+5%,,,,,,,,,,,,,,,,,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,,+5%,,6,20
@@ -1380,7 +1380,7 @@ Irreparability",,,Efficiency 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0,1.2,
 ,Chillwind Repeater,Isles,Tier 4,Crossbow,Crossbow,Celsian Isles,,,,,,,,"12.0 Proj Damage
 1.0 Proj Speed",Unbreaking 2,,"Punch 1
 Quick Charge 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.0,1.0,,2,,,,,,,,,,,,,,,,,,,,,,,1,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,,,5,20
-,Daybreaker,Isles,Tier 4,Mainhand Sword,Stone Sword,Celsian Isles,,,,,,,,"5.5 Attack Damage
+,Daybreaker,Isles,Tier 4,Sword <M>,Stone Sword,Celsian Isles,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 3,"Smite 3
 Fire Aspect 2
 Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,3,,,,3,,,2,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,,,5,20
@@ -1399,7 +1399,7 @@ Punch 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.0,1.0,,,1,,,,,,,,,,,,,,,
 3.5 Attack Damage
 4.0 Attack Speed",,"Smite 2
 Fire Aspect 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+50%,3.5,4.0,,,,,,,,2,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,,,5,20
-,Ironcore Machete,Isles,Tier 4,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"9.0 Attack Damage
+,Ironcore Machete,Isles,Tier 4,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"9.0 Attack Damage
 1.6 Attack Speed",Unbreaking 1,"Slayer 1
 Sweeping Edge 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.0,1.6,,,,1,,,,,1,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,,,5,20
 ,Ishnir Catalyst,Isles,Tier 4,Offhand,Blaze Rod,Celsian Isles,,3,,"Fire Prot. 2
@@ -1416,7 +1416,7 @@ Aqua Affinity",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,
 0.8 Attack Speed",Unbreaking 5,Slayer 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.0,0.8,,,,5,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,,,5,20
 ,Necrotic Scythe,Isles,Tier 4,Scythe,Iron Hoe,Celsian Isles,,,,,,,,"5.0 Attack Damage
 2.0 Attack Speed",Unbreaking 1,Smite 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,2.0,,,,1,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,,,5,20
-,Obsidian Blade,Isles,Tier 4,Mainhand Sword,Stone Sword,Celsian Isles,,,,,,,+2.0 Knockback Res.,"9.5 Attack Damage
+,Obsidian Blade,Isles,Tier 4,Sword <M>,Stone Sword,Celsian Isles,,,,,,,+2.0 Knockback Res.,"9.5 Attack Damage
 1.6 Attack Speed",Unbreaking 5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+2.0,,,,9.5,1.6,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,,,5,20
 ,Quicksilver Pickaxe,Isles,Tier 4,Pickaxe,Iron Pickaxe,Celsian Isles,,,,,,,,"4.0 Attack Damage
 1.2 Attack Speed",Unbreaking 1,,,Efficiency 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.2,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,,,5,20
@@ -1450,12 +1450,12 @@ Magic Prot. 2",,+10% Speed,,,Unbreaking 6,,,,,,,,,,,,,,,,,,,,2,2,,,,,,,,,,,+10%,
 Magic Prot. 2",,+10% Speed,,,Unbreaking 6,,,,,,,,,,,,,,,,,,,,2,2,,,,,,,,,,,+10%,,,,,,,,,,,,,,,,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,+10%,,5,20
 ,Storm Mage's Robe (leggings),Isles,Tier 4,Leggings,Leather Leggings,Celsian Isles,,5,,"Projectile Prot. 2
 Magic Prot. 2",,+10% Speed,,,Unbreaking 6,,,,,,,,,,,,,,,,,,,,2,2,,,,,,,,,,,+10%,,,,,,,,,,,,,,,,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,+10%,,5,20
-,Sword of Ages,Isles,Tier 4,Mainhand Sword,Stone Sword,Celsian Isles,,,,,,,,"7.0 Attack Damage
+,Sword of Ages,Isles,Tier 4,Sword <M>,Stone Sword,Celsian Isles,,,,,,,,"7.0 Attack Damage
 1.6 Attack Speed",Mending,Ice Aspect 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.0,1.6,,,,,1,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,,,5,20
 ,Thunderhead,Isles,Tier 4,Axe,Iron Axe,Celsian Isles,,,,,,,,"13.0 Attack Damage
 0.9 Attack Speed",Unbreaking 2,"Thunder Aspect 2
 Chaotic 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.0,0.9,,,,2,,,,,,,,,2,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,,,5,20
-,Thunderous Claymore,Isles,Tier 4,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"8.0 Attack Damage
+,Thunderous Claymore,Isles,Tier 4,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"8.0 Attack Damage
 1.6 Attack Speed",,"Thunder Aspect 3
 Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,1.6,,,,,,,,,,,,,3,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,,,5,20
 ,Vulture Khopesh,Isles,Tier 4,Scythe,Iron Hoe,Celsian Isles,,,,,,,,"7.0 Attack Damage
@@ -1468,7 +1468,7 @@ Decay 3",,,,,Vanishing 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+50%,4.5,4.0,,,,,,
 ,War-ready Pickaxe,Isles,Tier 4,Pickaxe,Stone Pickaxe,Celsian Isles,,,,"Melee Prot. 2
 Projectile Prot. 2",,,,"3.0 Attack Damage
 1.2 Attack Speed",Unbreaking 7,,,Efficiency 2,,,,,,,,,,,,,,,,2,2,,,,,,,,,,,,,,,,,,,,,,,,,3.0,1.2,,,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,,,,5,20
-,Acute Webslasher,Isles,Tier 3,Mainhand Sword,Stone Sword,Celsian Isles,,,,,,,,"6.5 Attack Damage
+,Acute Webslasher,Isles,Tier 3,Sword <M>,Stone Sword,Celsian Isles,,,,,,,,"6.5 Attack Damage
 1.6 Attack Speed",Unbreaking 2,Slayer 3,,Efficiency 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.5,1.6,,,,2,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,4,20
 ,Blastmesh Apron,Isles,Tier 3,Leggings,Chainmail Leggings,Celsian Isles,,5.5,,Blast Prot. 3,,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,4,20
 ,Blastmesh Boots,Isles,Tier 3,Boots,Chainmail Boots,Celsian Isles,,5.5,,Blast Prot. 3,,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,4,20
@@ -1478,7 +1478,7 @@ Projectile Prot. 2",,,,"3.0 Attack Damage
 0.8 Attack Speed",Unbreaking 4,"Smite 3
 Fire Aspect 1
 Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.0,0.8,,,,4,,,,3,,,1,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,4,20
-,Bluesteel Longsword,Isles,Tier 3,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"9.0 Attack Damage
+,Bluesteel Longsword,Isles,Tier 3,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"9.0 Attack Damage
 1.6 Attack Speed",Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.0,1.6,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,4,20
 ,Briskbronze Boots,Isles,Tier 3,Boots,Golden Boots,Celsian Isles,4,4,,,,+5% Speed,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+5%,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,+5%,,4,20
 ,Briskbronze Helm,Isles,Tier 3,Helmet,Golden Helmet,Celsian Isles,4,4,,,,+5% Speed,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+5%,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,+5%,,4,20
@@ -1514,9 +1514,9 @@ Fortune 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0,1.2,,,,1,,,,,,,,,,,,,,,,
 4.5 Attack Damage
 4.0 Attack Speed",,"Slayer 2
 Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+45%,4.5,4.0,,,,,,,,,2,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,4,20
-,Frosted Sabre,Isles,Tier 3,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"7.5 Attack Damage
+,Frosted Sabre,Isles,Tier 3,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"7.5 Attack Damage
 1.6 Attack Speed",Unbreaking 2,Ice Aspect 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.5,1.6,,,,2,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,4,20
-,Gale Shortsword,Isles,Tier 3,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"8.0 Attack Damage
+,Gale Shortsword,Isles,Tier 3,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"8.0 Attack Damage
 1.6 Attack Speed",,Sweeping Edge 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,1.6,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,4,20
 ,Gravemaking Scythe,Isles,Tier 3,Scythe,Iron Hoe,Celsian Isles,,,,,,,,"5.5 Attack Damage
 2.0 Attack Speed",Unbreaking 2,Smite 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,2.0,,,,2,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,4,20
@@ -1553,7 +1553,7 @@ Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+45%,4.5,4.0,,,,,,,,,2,,,
 ,Steelguard,Isles,Tier 3,Offhand Shield,Shield,Celsian Isles,4,,,Projectile Prot. 2,,,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,4,20
 ,Steelscale Maul,Isles,Tier 3,Axe,Iron Axe,Celsian Isles,,,,,,,,"13.0 Attack Damage
 0.9 Attack Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13.0,0.9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,4,20
-,Storm Dagger,Isles,Tier 3,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"8.0 Attack Damage
+,Storm Dagger,Isles,Tier 3,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"8.0 Attack Damage
 1.6 Attack Speed",Unbreaking 1,"Thunder Aspect 2
 Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,1.6,,,,1,,,,,,,,,2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,4,20
 ,Viridian Hunter,Isles,Tier 3,Bow,Bow,Celsian Isles,,,,,,,,"12.0 Proj Damage
@@ -1566,7 +1566,7 @@ Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,1.6,,,,1,,,,,,,,,2,1
 ,Basaltic Battleaxe,Isles,Tier 2,Axe,Stone Axe,Celsian Isles,,,,,,,,"11.0 Attack Damage
 0.8 Attack Speed",Unbreaking 4,"Fire Aspect 2
 Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.0,0.8,,,,4,,,,,,,2,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,,,3,20
-,Biding Saber,Isles,Tier 2,Mainhand Sword,Stone Sword,Celsian Isles,,,,,,,,"7.0 Attack Damage
+,Biding Saber,Isles,Tier 2,Sword <M>,Stone Sword,Celsian Isles,,,,,,,,"7.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,"Fire Aspect 3
 Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.0,1.6,,,,2,,,,,,,3,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,,,3,20
 ,Bolstering Pavise,Isles,Tier 2,Offhand Shield,Shield,Celsian Isles,,1.5,,,,,+20% Attack Damage,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+20%,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,,,3,20
@@ -1579,7 +1579,7 @@ Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.0,1.6,,,,2,,,,,,,3,,,1
 4.0 Attack Damage
 4.0 Attack Speed",,"Smite 1
 Thunder Aspect 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+40%,4.0,4.0,,,,,,,,1,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,,,3,20
-,Graceful Broadsword,Isles,Tier 2,Mainhand Sword,Stone Sword,Celsian Isles,,,,,,,,"6.5 Attack Damage
+,Graceful Broadsword,Isles,Tier 2,Sword <M>,Stone Sword,Celsian Isles,,,,,,,,"6.5 Attack Damage
 1.6 Attack Speed",Unbreaking 1,"Ice Aspect 1
 Sweeping Edge 3",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.5,1.6,,,,1,,,,,,,,1,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,,,3,20
 ,Ignition Wand,Isles,Tier 2,Wand,Blaze Rod,Celsian Isles,,,,,,,,"+45% Spell Power
@@ -1592,7 +1592,7 @@ Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+45%,4.5,4.0,,,,,,,,,,,1,
 ,Incendiary Pants,Isles,Tier 2,Leggings,Leather Leggings,Celsian Isles,,4,,Fire Prot. 2,,,+10% Attack Damage,,Unbreaking 4,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,+10%,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,,,3,20
 ,Ironcast Tomahawk,Isles,Tier 2,Axe,Iron Axe,Celsian Isles,,,,,,,,"12.0 Attack Damage
 0.9 Attack Speed",Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.0,0.9,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,,,3,20
-,Keen Shortsword,Isles,Tier 2,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"8.0 Attack Damage
+,Keen Shortsword,Isles,Tier 2,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"8.0 Attack Damage
 1.6 Attack Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,1.6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,,,3,20
 ,Olivian Mage Hat,Isles,Tier 2,Helmet,Leather Helmet,Celsian Isles,,5,,Magic Prot. 1,,+5% Speed,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,+5%,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,+5%,,3,20
 ,Olivian Mage Robes (boots),Isles,Tier 2,Boots,Leather Boots,Celsian Isles,,5,,Magic Prot. 1,,+5% Speed,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,+5%,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,+5%,,3,20
@@ -1639,11 +1639,11 @@ Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.0,0.8,,,,5,,,,,3,,,,,
 1.2 Attack Speed",Irreparability,,,Efficiency 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0,1.2,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,,,3,20
 ,Strikebow,Isles,Tier 2,Bow,Bow,Celsian Isles,,,,,,+5% Speed,,"14.0 Proj Damage
 1.0 Proj Speed",,,Punch 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+5%,,,,,,,,,,,,,,,14.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,+5%,,3,20
-,Thunder Estoc,Isles,Tier 2,Mainhand Sword,Golden Sword,Celsian Isles,,,,,,,,"7.0 Attack Damage
+,Thunder Estoc,Isles,Tier 2,Sword <M>,Golden Sword,Celsian Isles,,,,,,,,"7.0 Attack Damage
 1.6 Attack Speed",Unbreaking 8,Thunder Aspect 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.0,1.6,,,,8,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,,,3,20
 ,Trusty Spade,Isles,Tier 2,Shovel,Iron Shovel,Celsian Isles,,,,,,,,"4.5 Attack Damage
 1.0 Attack Speed",Unbreaking 3,,,Efficiency 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.5,1.0,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,,,3,20
-,Wispblade,Isles,Tier 2,Mainhand Sword,Wooden Sword,Celsian Isles,,,,,,,,"5.5 Attack Damage
+,Wispblade,Isles,Tier 2,Sword <M>,Wooden Sword,Celsian Isles,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 3,"Smite 2
 Slayer 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,3,,,,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,,,3,20
 ,Wispleaf Cloak,Isles,Tier 2,Chestplate,Leather Chestplate,Celsian Isles,,4.5,,Feather Falling 3,,,,,Unbreaking 4,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,,,,3,20
@@ -1663,16 +1663,16 @@ Feather Falling 4",,,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,1,,,4,,,,,,,,,,,,,,,,,,,
 ,Coldfire Axe,Isles,Tier 1,Axe,Stone Axe,Celsian Isles,,,,,,,,"10.5 Attack Damage
 0.8 Attack Speed",Unbreaking 4,"Fire Aspect 1
 Ice Aspect 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.5,0.8,,,,4,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,,,,2,20
-,Creeper's Bane,Isles,Tier 1,Mainhand Sword,Wooden Sword,Celsian Isles,,,,,,,,"5.0 Attack Damage
+,Creeper's Bane,Isles,Tier 1,Sword <M>,Wooden Sword,Celsian Isles,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,Slayer 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,3,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,,,,2,20
-,Driftwood's Gambit,Isles,Tier 1,Mainhand Sword,Wooden Sword,Celsian Isles,,,,,,,,"6.5 Attack Damage
+,Driftwood's Gambit,Isles,Tier 1,Sword <M>,Wooden Sword,Celsian Isles,,,,,,,,"6.5 Attack Damage
 1.6 Attack Speed",Unbreaking 4,"Sweeping Edge 3
 Chaotic 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.5,1.6,,,,4,,,,,,,,,,,3,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,,,,2,20
 ,Farsight Flame,Isles,Tier 1,Bow,Bow,Celsian Isles,,,,,,+7% Speed,,"8.0 Proj Damage
 1.0 Proj Speed",,,"Sniper 1
 Fire Aspect 1
 Punch 3",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+7%,,,,,,,,,,,,,,,8.0,1.0,,,,,,,,,,,,,,,,,,,,1,,1,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,,+7%,,2,20
-,Frozen Gladius,Isles,Tier 1,Mainhand Sword,Stone Sword,Celsian Isles,,,,,,,,"6.5 Attack Damage
+,Frozen Gladius,Isles,Tier 1,Sword <M>,Stone Sword,Celsian Isles,,,,,,,,"6.5 Attack Damage
 1.6 Attack Speed",Unbreaking 2,Ice Aspect 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.5,1.6,,,,2,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,,,,2,20
 ,Highspruce Pickaxe,Isles,Tier 1,Pickaxe,Wooden Pickaxe,Celsian Isles,,,,Magic Prot. 1,,,,"2.0 Attack Damage
 1.2 Attack Speed",,Ice Aspect 1,,Efficiency 3,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,2.0,1.2,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,,,,2,20
@@ -1684,7 +1684,7 @@ Feather Falling 4",,,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,1,,,4,,,,,,,,,,,,,,,,,,,
 0.8 Attack Speed",Unbreaking 4,Smite 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.0,0.8,,,,4,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,,,,2,20
 ,Iron Battleaxe,Isles,Tier 1,Axe,Iron Axe,Celsian Isles,,,,,,,,"12.0 Attack Damage
 0.8 Attack Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.0,0.8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,,,,2,20
-,Iron Broadsword,Isles,Tier 1,Mainhand Sword,Iron Sword,Celsian Isles,,,,,,,,"7.5 Attack Damage
+,Iron Broadsword,Isles,Tier 1,Sword <M>,Iron Sword,Celsian Isles,,,,,,,,"7.5 Attack Damage
 1.6 Attack Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.5,1.6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,,,,2,20
 ,Iron Scythe,Isles,Tier 1,Scythe,Iron Hoe,Celsian Isles,,,,,,,,"5.0 Attack Damage
 2.0 Attack Speed",,Smite 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,2.0,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,,,,2,20
@@ -1739,7 +1739,7 @@ Feather Falling 4",,,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,1,,,4,,,,,,,,,,,,,,,,,,,
 1.0 Proj Speed",Unbreaking 3,,Point Blank 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,1.0,,3,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,,,,2,20
 ,Stonecull Chisel,Isles,Tier 1,Pickaxe,Stone Pickaxe,Celsian Isles,,,,,,,,"3.0 Attack Damage
 1.2 Attack Speed",Unbreaking 1,,,Efficiency 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0,1.2,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,,,,2,20
-,Thunder Rapier,Isles,Tier 1,Mainhand Sword,Golden Sword,Celsian Isles,,,,,,,,"5.5 Attack Damage
+,Thunder Rapier,Isles,Tier 1,Sword <M>,Golden Sword,Celsian Isles,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 6,"Smite 1
 Thunder Aspect 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,6,,,,1,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,,,,2,20
 ,Trenchdigger,Isles,Tier 1,Shovel,Iron Shovel,Celsian Isles,,,,,,,,"4.5 Attack Damage
@@ -1782,7 +1782,7 @@ Ice Aspect 1
 Thunder Aspect 2
 Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+40%,3.5,4.0,,,,,,,,,,,1,1,2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,17,,,,12,17
 ,Heart of the Jungle,Valley,Artifact,Consumable,Apple,Kaul,,,,,,,,,,,,Infinity,,,,,Heals on consumption,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,17,,,,12,17
-,Jungle's Requiem,Valley,Artifact,Mainhand Sword,Wooden Sword,Kaul,,,,,,,,"7.5 Attack Damage
+,Jungle's Requiem,Valley,Artifact,Sword <M>,Wooden Sword,Kaul,,,,,,,,"7.5 Attack Damage
 1.6 Attack Speed","Unbreaking 1
 Mending","Sweeping Edge 1
 Decay 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.5,1.6,,,,1,1,,,,,,,,,,1,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,17,,,,12,17
@@ -1864,7 +1864,7 @@ Fire Prot. 1",,+15% Speed,,,Unbreaking 2,,,,,,,,,,,,,,,1,,,,,,1,1,1,,,,,,,,,+15%
 +5% Magic Damage",,Unbreaking 5,,,,,,,,,,,,,,,,,,,,,,,,,+2,,,,,,,,,,+10%,,,+5%,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,14,10,,,12,14
 ,Ta'Ferna's Quiver,Valley,Artifact,Offhand,Stick,Sanctum,,3,,Feather Falling 1,,+10% Speed,+15% Proj Damage,,,,,,,Retrieval 3,,,,,,,,,,,,,,,,,,,1,,,,,,,,+10%,,,,,,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,12,14,,+10%,,12,14
 ,Wayfinder's Compass,Valley,Uncommon,Mainhand,Compass,Sanctum,,,,,,+15% Speed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,14,,+15%,,7,14
-,Arachnidruid Cutlass,Valley,Artifact,Mainhand Sword,Golden Sword,Corridors,,,,,,,,"5.0 Attack Damage
+,Arachnidruid Cutlass,Valley,Artifact,Sword <M>,Golden Sword,Corridors,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 7,"Slayer 4
 Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,7,,,,,4,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,13,,,,12,13
 ,Blackroot's Hatred,Valley,Artifact,Wand,Stick,Corridors,,,,,,,,"+40% Spell Power
@@ -1915,16 +1915,16 @@ Projectile Prot. 2",,+15% Speed,,,Unbreakable,,,,,,,,,,,,,,,,,,,2,2,,,,,,,,,,,,+
 1.0 Proj Speed",Mending,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,14.0,1.0,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,13,,,,12,13
 ,Robes of the Core,Valley,Artifact,Leggings,Leather Leggings,Corridors,,4,,Fire Prot. 2,,,"+10% Attack Damage
 +7% Magic Damage",,Unbreaking 5,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,+10%,,,+7%,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,13,,,,12,13
-,Rosethorn Blade,Valley,Artifact,Mainhand Sword,Stone Sword,Corridors,,2.5,,,,,+2 Thorns,"6.5 Attack Damage
+,Rosethorn Blade,Valley,Artifact,Sword <M>,Stone Sword,Corridors,,2.5,,,,,+2 Thorns,"6.5 Attack Damage
 1.6 Attack Speed",Unbreaking 4,Sweeping Edge 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+2,,,6.5,1.6,,,,4,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,13,,,,12,13
 ,Shimmering Wave,Valley,Artifact,Pickaxe,Golden Pickaxe,Corridors,,,,,,+7% Speed,,"2.0 Attack Damage
 1.2 Attack Speed","Unbreaking 1
 Mending",,,Efficiency 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+7%,,,,,,,,,,,,,2.0,1.2,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,13,,+7%,,12,13
 ,Silversilk Visage,Valley,Artifact,Helmet,Leather Helmet,Corridors,,4.5,Tempo 1,,,,,,Unbreaking 5,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,13,,,,12,13
-,Slicing Wind,Valley,Artifact,Mainhand Sword,Wooden Sword,Corridors,,,,,,+10% Speed,,"5.0 Attack Damage
+,Slicing Wind,Valley,Artifact,Sword <M>,Wooden Sword,Corridors,,,,,,+10% Speed,,"5.0 Attack Damage
 1.6 Attack Speed","Unbreaking 2
 Mending",Sweeping Edge 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+10%,,,,,,,,,,,,,5.0,1.6,,,,2,1,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,13,,+10%,,12,13
-,Smouldering Flame,Valley,Artifact,Mainhand Sword,Golden Sword,Corridors,,,,,,,,"6.0 Attack Damage
+,Smouldering Flame,Valley,Artifact,Sword <M>,Golden Sword,Corridors,,,,,,,,"6.0 Attack Damage
 1.6 Attack Speed",Unbreaking 10,"Fire Aspect 5
 Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.0,1.6,,,,10,,,,,,,5,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,13,,,,12,13
 ,Snowstorm Quiver,Valley,Artifact,Offhand,Stick,Corridors,3,,,,,,"+15% Proj Damage
@@ -1935,7 +1935,7 @@ Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.0,1.6,,,,10,,,,,,,5,,,
 ,Steelscale Leggings,Valley,Artifact,Leggings,Chainmail Leggings,Corridors,5,,,Projectile Prot. 3,,,,,Unbreaking 2,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,13,,,,12,13
 ,Sulfuric Robes,Valley,Artifact,Leggings,Leather Leggings,Corridors,3,,,"Blast Prot. 5
 Fire Prot. 5",,,,,Mending,,,,,,,,,,,,,,,,,,,,,,5,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,13,,,,12,13
-,Vermin's End,Valley,Artifact,Mainhand Sword,Stone Sword,Corridors,,,,,,,,"5.5 Attack Damage
+,Vermin's End,Valley,Artifact,Sword <M>,Stone Sword,Corridors,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 5,Slayer 2,,Efficiency 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,5,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,13,,,,12,13
 ,Warded Vestment,Valley,Artifact,Chestplate,Leather Chestplate,Corridors,,2,,"Projectile Prot. 2
 Magic Prot. 2
@@ -1958,7 +1958,7 @@ Fire Aspect 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+7%,,,,,,,,,,,,+35%,2.5,4.0,,,,,,,,
 Mending","Thunder Aspect 1
 Knockback 1",,Efficiency 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+35%,11.5,0.8,,,,3,1,,,,,,,,1,1,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,12,,,,12,12
 ,C'Axtal's Decayed Mask,Valley,Artifact,Helmet,Player Head,Reverie,,,,Projectile Prot. 6,+2 Max Health,,+15% Attack Damage,,,,,,Respiration 2,,,,,,,,,,,,,,,,6,,,,,+2,,,,,,,,,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,12,12,10,,,12,12
-,Corrupted Geomantic Dagger,Valley,Artifact,Mainhand Sword,Golden Sword,Reverie,2,,,,,,,"6.0 Attack Damage
+,Corrupted Geomantic Dagger,Valley,Artifact,Sword <M>,Golden Sword,Reverie,2,,,,,,,"6.0 Attack Damage
 1.6 Attack Speed",Unbreaking 30,Slayer 2,,,,,Corruption,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.0,1.6,,,,30,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,12,12,,,,12,12
 ,Corrupted Jeweled Tiara,Valley,Artifact,Helmet,Golden Helmet,Reverie,3,,,,+6 Max Health,,,,Unbreaking 3,,,,,,Corruption,,,,,,,,,,,,,,,,,,,+6,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,12,12,30,,,12,12
 ,Corrupted Monk's Robe,Valley,Artifact,Chestplate,Leather Chestplate,Reverie,,5,,,+2 Max Health,,,,Unbreaking 7,,,,,Second Wind 1,Corruption,,,,,,,,,,,,,,,,,,,+2,,,,,,,,,,,,,,,,,,,,,,,,,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,1,,,,,,12,12,10,,,12,12
@@ -1975,7 +1975,7 @@ Decay 2",,,,,Corruption,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+2.0,,,+45%,4.5,4.0,,,
 ,Corrupted Tyrolean Boots,Valley,Artifact,Boots,Leather Boots,Reverie,,4,,"Projectile Prot. 1
 Feather Falling 2",,+10% Speed,"+10% Attack Damage
 +10% Proj Damage",,Unbreaking 5,,,,,,Corruption,,,,,,,,,,,,,,1,,,,2,,,,,,,,+10%,,,+10%,,,,+10%,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,12,12,,+10%,,12,12
-,Corrupted Watcher's Sword,Valley,Artifact,Mainhand Sword,Stone Sword,Reverie,,,,,,,,"5.5 Attack Damage
+,Corrupted Watcher's Sword,Valley,Artifact,Sword <M>,Stone Sword,Reverie,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 5,"Smite 3
 Sweeping Edge 1",,,,,Corruption,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,5,,,,3,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,12,12,,,,12,12
 ,Corrupted Water Robe,Valley,Artifact,Leggings,Leather Leggings,Reverie,,5,,,Regen 1,,+5% Magic Damage,,Mending,,,,,,Corruption,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,+5%,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,12,12,,,,12,12
@@ -2007,14 +2007,14 @@ Blast Prot. 2",,,,,,,,,,,,,,,,,,,,,,,,2,3,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 0.8 Attack Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.0,0.8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,12,,,,7,12
 ,Coldsteel Blunt,Valley,Artifact,Scythe,Iron Hoe,Lowtide Smuggler,,,,Melee Prot. 2,,,,"5.5 Attack Damage
 2.0 Attack Speed",,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,11,,,,12,11
-,Fading Wispblade,Valley,Artifact,Mainhand Sword,Wooden Sword,Lowtide Smuggler,,,,,,,,"5.5 Attack Damage
+,Fading Wispblade,Valley,Artifact,Sword <M>,Wooden Sword,Lowtide Smuggler,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 5,"Smite 1
 Slayer 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,5,,,,1,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,11,,,,12,11
 ,Fire Tempest,Valley,Artifact,Wand,Blaze Rod,Lowtide Smuggler,,,,,,,,"+35% Spell Power
 3.0 Attack Damage
 4.0 Attack Speed",,"Fire Aspect 1
 Knockback 1",,,,Inferno 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+35%,3.0,4.0,,,,,,,,,,,1,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,12,11,,,,12,11
-,Lustrous Edge,Valley,Artifact,Mainhand Sword,Stone Sword,Lowtide Smuggler,,,,,,,,"6.5 Attack Damage
+,Lustrous Edge,Valley,Artifact,Sword <M>,Stone Sword,Lowtide Smuggler,,,,,,,,"6.5 Attack Damage
 1.6 Attack Speed",Unbreaking 3,"Fire Aspect 1
 Thunder Aspect 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.5,1.6,,,,3,,,,,,,1,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,11,,,,12,11
 ,Salubrious Chisel,Valley,Artifact,Pickaxe,Stone Pickaxe,Lowtide Smuggler,,,,,,,,"3.0 Attack Damage
@@ -2040,7 +2040,7 @@ Projectile Prot. 2",,,+3.0 Knockback Res.,"3.0 Attack Damage
 ,Stoneborn Tunic,Valley,Rare,Chestplate,Leather Chestplate,Willows,4,,,Melee Prot. 2,,,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,10,,,,11,10
 ,Sulfuric Threads,Valley,Rare,Leggings,Leather Leggings,Willows,2.5,,,"Blast Prot. 5
 Fire Prot. 5",,,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,,5,5,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,10,,,,11,10
-,Telum Immoriel,Valley,Rare,Mainhand Sword,Stone Sword,Willows,,,,,,,,"12.0 Attack Damage
+,Telum Immoriel,Valley,Rare,Sword <M>,Stone Sword,Willows,,,,,,,,"12.0 Attack Damage
 0.8 Attack Speed",Unbreaking 2,Sweeping Edge 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.0,0.8,,,,2,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,10,,,,11,10
 ,Trueking Chains,Valley,Rare,Boots,Chainmail Boots,Willows,,3.5,,"Magic Prot. 1
 Blast Prot. 1",,,+10% Magic Damage,,Unbreaking 2,,,,,,,,,,,,,,,,,,,,,1,1,,,,,,,,,,,,,,,,+10%,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,10,,,,11,10
@@ -2067,7 +2067,7 @@ Fire Prot. 1",,,,"+35% Spell Power
 ,Hellshire's Legguards,Valley,Rare,Leggings,Leather Leggings,Yellow,,4,Tempo 1,Fire Prot. 1,,,,,Unbreaking 3,,,,,,,,,,,,,,,,,1,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,9,,,,11,9
 ,Ironscale Leggings,Valley,Rare,Leggings,Chainmail Leggings,Yellow,4,,,Projectile Prot. 2,,,,,Unbreaking 2,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,9,,,,11,9
 ,Magmahide Shield,Valley,Rare,Offhand Shield,Shield,Yellow,3,,,Fire Prot. 4,,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,9,,,,11,9
-,Poison Ivy,Valley,Rare,Mainhand Sword,Stone Sword,Yellow,,2,,,,,+2 Thorns,"6.0 Attack Damage
+,Poison Ivy,Valley,Rare,Sword <M>,Stone Sword,Yellow,,2,,,,,+2 Thorns,"6.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,Sweeping Edge 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+2,,,6.0,1.6,,,,3,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,9,,,,11,9
 ,Sleepwalker's Sickle,Valley,Rare,Scythe,Stone Hoe,Yellow,,,,,,+15% Speed,,"6.0 Attack Damage
 2.0 Attack Speed",Unbreaking 5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+15%,,,,,,,,,,,,,6.0,2.0,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,9,,+15%,,11,9
@@ -2107,7 +2107,7 @@ Feather Falling 2",,+10% Speed,+10% Proj Damage,,Unbreaking 5,,,,,,,,,,,,,,,,,,,
 Magic Prot. 1
 Blast Prot. 1
 Fire Prot. 1",,,+20% Attack Damage,,Unbreakable,,,,,,,,,,,,,,,,,,,,1,1,1,1,,,,,,,,,,,,+20%,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,8,,,,11,8
-,Prismatic Blade,Valley,Rare,Mainhand Sword,Stone Sword,Light Blue,,,,,,,,"6.0 Attack Damage
+,Prismatic Blade,Valley,Rare,Sword <M>,Stone Sword,Light Blue,,,,,,,,"6.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,"Smite 1
 Fire Aspect 1
 Ice Aspect 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.0,1.6,,,,2,,,,1,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,8,,,,11,8
@@ -2124,7 +2124,7 @@ Knockback 3",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+25%,13.0,0.5,,,,,,,,,,,3
 ,Thaumaturge's Robes (boots),Valley,Uncommon,Boots,Leather Boots,Light Blue,,4.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,,,,7,8
 ,Thaumaturge's Robes (chestplate),Valley,Uncommon,Chestplate,Leather Chestplate,Light Blue,,4.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,,,,7,8
 ,Thaumaturge's Robes (leggings),Valley,Uncommon,Leggings,Leather Leggings,Light Blue,,4.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,,,,7,8
-,Doom's Edge,Valley,Rare,Mainhand Sword,Golden Sword,Magenta,,,,,,,,"6.0 Attack Damage
+,Doom's Edge,Valley,Rare,Sword <M>,Golden Sword,Magenta,,,,,,,,"6.0 Attack Damage
 1.6 Attack Speed","Unbreaking 2
 Mending",Sweeping Edge 4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.0,1.6,,,,2,1,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,7,,,,11,7
 ,Ghoulskin Vestment,Valley,Rare,Chestplate,Leather Chestplate,Magenta,2,,,,+4 Max Health,,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,,,,,+4,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,7,20,,,11,7
@@ -2174,7 +2174,7 @@ Blast Prot. 1",+2 Max Health,,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,3,,,1,,,+2,,,,,,,
 ,Shapeshifter's Gauntlet,Valley,Rare,Offhand,Leather,Orange,1,,Inure 1,,,,+15% Attack Damage,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,+15%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,6,,,,11,6
 ,The Ravager,Valley,Rare,Axe,Stone Axe,Orange,,,,,,,,"10.0 Attack Damage
 1.0 Attack Speed",Unbreaking 4,Knockback 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.0,1.0,,,,4,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,6,,,,11,6
-,Wildthrasher,Valley,Rare,Mainhand Sword,Stone Sword,Orange,,,,,,,,"6.5 Attack Damage
+,Wildthrasher,Valley,Rare,Sword <M>,Stone Sword,Orange,,,,,,,,"6.5 Attack Damage
 1.6 Attack Speed",Unbreaking 3,Fire Aspect 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.5,1.6,,,,3,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,6,,,,11,6
 ,Albino Spider Egg,Valley,Uncommon,Throwable,Snowball,Orange,,,,,,,,"10.0 Proj Damage
 0.5 Proj Speed
@@ -2188,7 +2188,7 @@ Blast Prot. 1",+2 Max Health,,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,3,,,1,,,+2,,,,,,,
 ,Ashfloe Chisel,Valley,Rare,Pickaxe,Wooden Pickaxe,White,,,,Fire Prot. 3,,,,"2.0 Attack Damage
 1.2 Attack Speed",Unbreaking 1,,,"Efficiency 3
 Fortune 5",,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,2.0,1.2,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,5,,,,11,5
-,Ashheart Dagger,Valley,Rare,Mainhand Sword,Stone Sword,White,2,,,Fire Prot. 2,,,,"5.0 Attack Damage
+,Ashheart Dagger,Valley,Rare,Sword <M>,Stone Sword,White,2,,,Fire Prot. 2,,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,"Fire Aspect 4
 Sweeping Edge 2",,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,3,,,,,,,4,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,5,,,,11,5
 ,C'zanil's Charm,Valley,Rare,Offhand,Bone,White,,,,"Fire Prot. 1
@@ -2219,7 +2219,7 @@ Fire Prot. 2",,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,2,,,2,,,,,,,,,,,,,,,,,,,,,,,,,
 Fire Prot. 2",,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,2,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,5,,,,7,5
 ,Offering's Robe (leggings),Valley,Uncommon,Leggings,Leather Leggings,White,2,,,"Projectile Prot. 2
 Fire Prot. 2",,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,2,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,5,,,,7,5
-,Sacrificial Blade,Valley,Uncommon,Mainhand Sword,Stone Sword,White,,,,,,,,"6.0 Attack Damage
+,Sacrificial Blade,Valley,Uncommon,Sword <M>,Stone Sword,White,,,,,,,,"6.0 Attack Damage
 1.6 Attack Speed",,Fire Aspect 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.0,1.6,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,5,,,,7,5
 ,Wings of the Whirlwind,Valley,Uncommon,Chestplate,Golden Chestplate,White,1,,,Feather Falling 5,,,,,Mending,,,,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,5,,,,7,5
 ,Alchemic Caster,Valley,Uncommon,Wand,Stick,Labs,,,,,,,,"+20% Spell Power
@@ -2228,7 +2228,7 @@ Fire Prot. 2",,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,2,,,2,,,,,,,,,,,,,,,,,,,,,,,,,
 Decay 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+20%,2.5,4.0,,,,,,,,,,,,,,2,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,,,,7,4
 ,Alchemical Apron,Valley,Uncommon,Chestplate,Leather Chestplate,Labs,,,,,+4 Max Health,-10% Speed,,,Unbreaking 4,,,,,,,,,,,,,,,,,,,,,,,,,+4,,,,,,,-10%,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,20,-10%,,7,4
 ,Asbestos Pants,Valley,Uncommon,Leggings,Leather Leggings,Labs,2,,,Fire Prot. 1,,,+2 Thorns,,Mending,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,+2,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,,,,7,4
-,Entomology Scalpal,Valley,Uncommon,Mainhand Sword,Stone Sword,Labs,,,,,,,,"5.5 Attack Damage
+,Entomology Scalpal,Valley,Uncommon,Sword <M>,Stone Sword,Labs,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 2,Slayer 1,,Efficiency 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,2,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,,,,7,4
 ,Lab Forceps,Valley,Uncommon,Pickaxe,Wooden Pickaxe,Labs,,,,,,,,"2.0 Attack Damage
 1.2 Attack Speed",Unbreaking 5,Knockback 1,,Efficiency 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0,1.2,,,,5,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,,,,7,4
@@ -2240,7 +2240,7 @@ Decay 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+20%,2.5,4.0,,,,,,,,,,,,,,2,,
 ,Callum's Spellslinger,Valley,Rare,Crossbow,Crossbow,Valley Casino,,,,,,,,"8.0 Proj Damage
 1.0 Proj Speed",Unbreaking 1,,Quick Charge 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,1.0,,1,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,,,,11,3
 ,Earthbound Pants,Valley,Rare,Leggings,Leather Leggings,Valley Casino,3,,,Magic Prot. 1,+2 Max Health,,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,1,,,,+2,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,10,,,11,3
-,Earthbound Runeblade,Valley,Rare,Mainhand Sword,Stone Sword,Valley Casino,2,,,,,,+1.0 Knockback Res.,"6.0 Attack Damage
+,Earthbound Runeblade,Valley,Rare,Sword <M>,Stone Sword,Valley Casino,2,,,,,,+1.0 Knockback Res.,"6.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+1.0,,,,6.0,1.6,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,,,,11,3
 ,Fading Echo,Valley,Rare,Helmet,Leather Helmet,Valley Casino,,4,,,,,+3.0 Knockback Res.,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+3.0,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,,,,11,3
 ,Flamekissed Runeblade,Valley,Rare,Offhand Sword,Stone Sword,Valley Casino,,,,Fire Prot. 3,,+15% Speed,+25% Attack Damage,,Unbreakable,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,+15%,,,+25%,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,,+15%,,11,3
@@ -2254,7 +2254,7 @@ Knockback 2",,Efficiency 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+15%,,,,,,,,,,,,,3.0,1.2,
 ,Screamcaller,Valley,Rare,Bow,Bow,Valley Casino,,,Reflexes 1,,,,,"14.0 Proj Damage
 0.5 Proj Speed",,Knockback 2,Fire Aspect 1,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.0,0.5,,,,,,,,,,,,2,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,,,,11,3
 ,Seasoaked Helmet,Valley,Rare,Helmet,Leather Helmet,Valley Casino,3,,,Melee Prot. 2,,-5% Speed,,,Unbreaking 3,,,,Respiration 2,,,,,,,,,,,,,,,2,,,,,,,,,,,,,-5%,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,,-5%,,11,3
-,Seasoaked Runeblade,Valley,Rare,Mainhand Sword,Stone Sword,Valley Casino,,,,,,-10% Speed,,"7.0 Attack Damage
+,Seasoaked Runeblade,Valley,Rare,Sword <M>,Stone Sword,Valley Casino,,,,,,-10% Speed,,"7.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,Smite 1,,,Abyssal 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,-10%,,,,,,,,,,,,,7.0,1.6,,,,3,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,,-10%,,11,3
 ,Staff of the Soulseeker,Valley,Rare,Wand,Stick,Valley Casino,,,,,,,+3.0 Knockback Res.,"+35% Spell Power
 3.5 Attack Damage
@@ -2262,7 +2262,7 @@ Knockback 2",,Efficiency 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+15%,,,,,,,,,,,,,3.0,1.2,
 Ice Aspect 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+3.0,,,+35%,3.5,4.0,,,,,,,,2,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,,,,11,3
 ,Stormborn Boots,Valley,Rare,Boots,Leather Boots,Valley Casino,,3,,"Projectile Prot. 1
 Feather Falling 2",,+10% Speed,+50% Proj Speed,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,1,,,,2,,,,,,,,+10%,,,,,,,,+50%,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,,+10%,,11,3
-,Stormborn Runeblade,Valley,Rare,Mainhand Sword,Stone Sword,Valley Casino,,,,,,+10% Speed,,"6.0 Attack Damage
+,Stormborn Runeblade,Valley,Rare,Sword <M>,Stone Sword,Valley Casino,,,,,,+10% Speed,,"6.0 Attack Damage
 2.0 Attack Speed",Unbreaking 3,Knockback 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+10%,,,,,,,,,,,,,6.0,2.0,,,,3,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,,+10%,,11,3
 ,Velara Crusher,Valley,Rare,Axe,Stone Axe,Valley Casino,,,,,,-8% Speed,,"15.0 Attack Damage
 0.6 Attack Speed",Unbreaking 4,Knockback 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-8%,,,,,,,,,,,,,15.0,0.6,,,,4,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,,-8%,,11,3
@@ -2280,10 +2280,10 @@ Mending","Fire Aspect 2
 Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,,,2,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,2,,,,12,2
 ,Jungle's Vengaence,Valley,Artifact,Offhand Sword,Stone Sword,Valley Overworld,,3,,,,,"+25% Attack Damage
 +0.10 Attack Speed",,Unbreakable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+25%,+0.10,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,2,,,+8%,12,2
-,Light of Salvation,Valley,Artifact,Mainhand Sword,Golden Sword,Valley Overworld,,,,,,,,"5.0 Attack Damage
+,Light of Salvation,Valley,Artifact,Sword <M>,Golden Sword,Valley Overworld,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreakable,"Fire Aspect 1
 Knockback 1",,Efficiency 2,,Radiant,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,,,1,,,,,1,,,1,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,12,2,,,,12,2
-,Loci Offering,Valley,Artifact,Mainhand Sword,Stone Sword,Valley Overworld,,,Tempo 1,,,,,"6.0 Attack Damage
+,Loci Offering,Valley,Artifact,Sword <M>,Stone Sword,Valley Overworld,,,Tempo 1,,,,,"6.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,"Slayer 1
 Thunder Aspect 1",,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.0,1.6,,,,3,,,,,1,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,2,,,,12,2
 ,Lodestar Boots,Valley,Artifact,Boots,Leather Boots,Valley Overworld,4,,,"Fire Prot. 2
@@ -2292,15 +2292,15 @@ Feather Falling 2",,,+20% Attack Speed,,Unbreaking 5,,,,,,,,,,,,,,,,,,,,,,,2,2,,
 ,Visage of the Lost,Valley,Artifact,Helmet,Leather Helmet,Valley Overworld,3,,,Projectile Prot. 3,,,+12% Proj Damage,,Unbreaking 4,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,+12%,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,2,,,,12,2
 ,Warforged Crossbow,Valley,Artifact,Crossbow,Crossbow,Valley Overworld,,,,,,,,"14.0 Proj Damage
 1.0 Proj Speed",Unbreaking 3,,Piercing 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.0,1.0,,3,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,2,,,,12,2
-,Abomination Splinter,Valley,Rare,Mainhand Sword,Stone Sword,Valley Overworld,,,,Blast Prot. 2,,,,"6.0 Attack Damage
+,Abomination Splinter,Valley,Rare,Sword <M>,Stone Sword,Valley Overworld,,,,Blast Prot. 2,,,,"6.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,"Fire Aspect 1
 Knockback 1",,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,6.0,1.6,,,,3,,,,,,,1,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,2,,,,11,2
 ,Aphelion's Gift,Valley,Rare,Crossbow,Crossbow,Valley Overworld,,,,Projectile Prot. 2,,,,"16.0 Proj Damage
 1.0 Proj Speed",Unbreaking 1,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,16.0,1.0,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,2,,,,11,2
-,Axtan Blade,Valley,Rare,Mainhand Sword,Stone Sword,Valley Overworld,,,,Magic Prot. 2,,,,"5.0 Attack Damage
+,Axtan Blade,Valley,Rare,Sword <M>,Stone Sword,Valley Overworld,,,,Magic Prot. 2,,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 4,Smite 2,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,4,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,2,,,,11,2
 ,Axtan Greaves,Valley,Rare,Leggings,Leather Leggings,Valley Overworld,,5.5,,,,,,,Mending,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,2,,,,11,2
-,Bandit's Dagger,Valley,Rare,Mainhand Sword,Stone Sword,Valley Overworld,,,,,,,,"6.5 Attack Damage
+,Bandit's Dagger,Valley,Rare,Sword <M>,Stone Sword,Valley Overworld,,,,,,,,"6.5 Attack Damage
 1.6 Attack Speed",Mending,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.5,1.6,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,2,,,,11,2
 ,Blackroot's Path,Valley,Rare,Boots,Leather Boots,Valley Overworld,3,,,Melee Prot. 2,,,,,Unbreaking 3,,,,Abyssal 1,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,11,2,,,,11,2
 ,Cavewalker Scythe,Valley,Rare,Scythe,Stone Hoe,Valley Overworld,,,,Fire Prot. 2,,,,"5.5 Attack Damage
@@ -2336,17 +2336,17 @@ Knockback 3",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+40%,2.5,4.0,,,,,,,,,,,5,
 Knockback 1
 Looting 3",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.5,2.0,,,,2,,,,,,,1,,,1,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
 ,Chitin Helmet,Valley,Uncommon,Helmet,Leather Helmet,Valley Overworld,4,,,Blast Prot. 1,,,,,Unbreaking 2,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
-,Civit Dagger,Valley,Uncommon,Mainhand Sword,Stone Sword,Valley Overworld,,,,,,,,"5.5 Attack Damage
+,Civit Dagger,Valley,Uncommon,Sword <M>,Stone Sword,Valley Overworld,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
 ,Coffee Cat Cafe Plushie,Valley,Uncommon,Helmet,Player Head,Valley Overworld,,1.5,,Fire Prot. 2,+2 Max Health,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,+2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,10,,,7,2
-,Completely Normal Sword,Valley,Uncommon,Mainhand Sword,Stone Sword,Valley Overworld,,,,,,,,"5.0 Attack Damage
+,Completely Normal Sword,Valley,Uncommon,Sword <M>,Stone Sword,Valley Overworld,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
-,Cracked Blade de Vie,Valley,Uncommon,Mainhand Sword,Stone Sword,Valley Overworld,,,,,Regen 1,,,"5.0 Attack Damage
+,Cracked Blade de Vie,Valley,Uncommon,Sword <M>,Stone Sword,Valley Overworld,,,,,Regen 1,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,Knockback 1,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,5.0,1.6,,,,2,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
 ,Craft Beer,Valley,Uncommon,Consumable,Potion,Valley Overworld,,,,,,,,,,,,Infinity,,,,,Infinite Nausea,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
 ,Cursed Pick,Valley,Uncommon,Pickaxe,Golden Pickaxe,Valley Overworld,,,,,,,,"2.0 Attack Damage
 1.2 Attack Speed",,,,Fortune 4,,,Vanishing 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0,1.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,7,2,,,,7,2
-,Cutting Breeze,Valley,Uncommon,Mainhand Sword,Wooden Sword,Valley Overworld,,,,,,7.5% Speed,,"5.0 Attack Damage
+,Cutting Breeze,Valley,Uncommon,Sword <M>,Wooden Sword,Valley Overworld,,,,,,7.5% Speed,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,Sweeping Edge 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.5%,,,,,,,,,,,,,5.0,1.6,,,,2,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,7.5%,,7,2
 ,Drowned Shellmet,Valley,Uncommon,Helmet,Turtle Helmet,Valley Overworld,,3,,,,,,,,,,,"Respiration 1
 Aqua Affinity",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
@@ -2362,7 +2362,7 @@ Aqua Affinity",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,Jaguar Pelt,Valley,Uncommon,Chestplate,Leather Chestplate,Valley Overworld,,2.5,,Projectile Prot. 1,,+10% Speed,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,+10%,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,+10%,,7,2
 ,Lacuna,Valley,Uncommon,Trident,Trident,Valley Overworld,,,,,,,,"9.0 Attack Damage
 1.3 Attack Speed",Unbreaking 2,,,,Riptide 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.0,1.3,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
-,Lingering Flame,Valley,Uncommon,Mainhand Sword,Golden Sword,Valley Overworld,,,,,,,,"5.0 Attack Damage
+,Lingering Flame,Valley,Uncommon,Sword <M>,Golden Sword,Valley Overworld,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,"Fire Aspect 5
 Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,2,,,,,,,5,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
 ,Magic Fish,Valley,Uncommon,Offhand,Pufferfish,Valley Overworld,,,,,,,,,,,,,Gills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
@@ -2397,9 +2397,9 @@ Knockback 1
 Chaotic 5",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.5,0.5,,,,,,,,1,,,,,,1,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
 ,Totem of the Veil,Valley,Uncommon,Offhand,Totem of Undying,Valley Overworld,-2,-2,,,-2 Max Health,+10% Speed,+10.0 Knockback Res.,,,,,,,,,,,,,,,,,,,,,,,,,,,-2,,,,,,,+10%,,,,,,,,,+10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,7,2,-10,+10%,,7,2
 ,Turtle Shield,Valley,Uncommon,Offhand Shield,Shield,Valley Overworld,,,,,,-10% Speed,+4.0 Knockback Res.,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-10%,,,,,,,,,+4.0,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,-10%,,7,2
-,Vermin's Scourge,Valley,Uncommon,Mainhand Sword,Stone Sword,Valley Overworld,,,,,,,,"5.5 Attack Damage
+,Vermin's Scourge,Valley,Uncommon,Sword <M>,Stone Sword,Valley Overworld,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 1,Slayer 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,1,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
-,Voltaic Edge,Valley,Uncommon,Mainhand Sword,Golden Sword,Valley Overworld,,,,,,,,"5.0 Attack Damage
+,Voltaic Edge,Valley,Uncommon,Sword <M>,Golden Sword,Valley Overworld,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",Mending,Thunder Aspect 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,,1,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
 ,Warped Quarterstaff,Valley,Uncommon,Wand,Stick,Valley Overworld,,,,,,,,"+20% Spell Power
 2.5 Attack Damage
@@ -2409,7 +2409,7 @@ Ice Aspect 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+20%,2.5,4.0,,,,,,,,,,,1
 ,Zombie Plushie,Valley,Uncommon,Helmet,Zombie Head,Valley Overworld,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,,,,7,2
 ,True North,Valley,Epic,Mainhand,Compass,King's Valley,1,1,,"Fire Prot. 2
 Feather Falling 2",Regen 1,+15% Speed,+3.0 Knockback Res.,,,,,,Gills,Darksight,,,Attract items from a distance,,,,,,,,,,,,,,,2,2,,,1,,,,,+15%,,,,,,,,,+3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,1,,,,,,,,,,,,,,,13,1,,+15%,,13,1
-,Blackroot Branch,Valley,Artifact,Mainhand Sword,Wooden Sword,King's Valley,,,,Melee Prot. 1,,,,"9.0 Attack Damage
+,Blackroot Branch,Valley,Artifact,Sword <M>,Wooden Sword,King's Valley,,,,Melee Prot. 1,,,,"9.0 Attack Damage
 1.8 Attack Speed",Mending,Quake 2,,,,,Two Handed,,Pass Artifact,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,9.0,1.8,,,,,1,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,12,1,,,,12,1
 ,Ekah's Anger,Valley,Artifact,Pickaxe,Stone Pickaxe,King's Valley,,,,,,+10% Speed,,,Unbreaking 3,Fire Aspect 2,,"Efficiency 1
 Eruption 2",,Inferno 1,,,Pass Artifact,,,,,,,,,,,,,,,,,,,,,,,,+10%,,,,,,,,,,,,,,,,,,3,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,1,,2,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,12,1,,+10%,,12,1
@@ -2438,7 +2438,7 @@ Adaptability",,+2 Max Health,,+8% Magic Damage,,,,,,,,,,,,,,,,,1,,,1,,,,,,,+2,,,
 ,Entropic Razor,Valley,Patron,Scythe,Stone Hoe,King's Valley,,1,Tempo 1,,,,,"6.0 Attack Damage
 2.0 Attack Speed",Mending,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.0,2.0,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,1,,,,10,1
 ,Eventide,Valley,Patron,Offhand Shield,Shield,King's Valley,,,,Fire Prot. 1,,,+5.0 Knockback Res.,,Mending,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,+5.0,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,1,,,,10,1
-,Frodian Keyblade,Valley,Patron,Mainhand Sword,Stone Sword,King's Valley,,,,,,,,1.6 Attack Speed,,"Thunder Aspect 1
+,Frodian Keyblade,Valley,Patron,Sword <M>,Stone Sword,King's Valley,,,,,,,,1.6 Attack Speed,,"Thunder Aspect 1
 Chaotic 25",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,1.6,,,,,,,,,,,,,1,,,,,,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,1,,,,10,1
 ,Gem Encrusted Manpance,Valley,Patron,Leggings,Leather Leggings,King's Valley,3,,,"Magic Prot. 2
 Blast Prot. 2",,,,,Mending,,,,"Respiration 3
@@ -2475,7 +2475,7 @@ Knockback 2",,Efficiency 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.5,1.0,,,,,
 ,Ballad of a Hero,Valley,Unique,Misc,Music Disc Cat,King's Valley,,,,,,,,,,,,,,,,,Music Disc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
 ,Beacon Crystal,Valley,Unique,Helmet,Player Head,King's Valley,,,,,,,,,,,,,,,,,Race trophy,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
 ,Boots of Cloud Nine,Valley,Unique,Boots,Leather Boots,King's Valley,,2,Tempo 1,Feather Falling 5,,,,,Unbreaking 3,,,,,,,,,,,,,,,,,1,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
-,Chef's Knife,Valley,Unique,Mainhand Sword,Stone Sword,King's Valley,,,,,,,,"6.0 Attack Damage
+,Chef's Knife,Valley,Unique,Sword <M>,Stone Sword,King's Valley,,,,,,,,"6.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,"Fire Aspect 2
 Looting 5",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.0,1.6,,,,3,,,,,,,2,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
 ,Congrats,Valley,Unique,Misc,Cookie,King's Valley,,,,,,,,,,,,,,,,,Parkour trophy,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
@@ -2486,7 +2486,7 @@ Looting 5",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.0,1.6,,,,3,,,,,,,2,,,,,,
 ,Deepdream Visage,Valley,Unique,Helmet,Player Head,King's Valley,3,,,Feather Falling 5,,+10% Speed,"+5% Attack Damage
 +5% Magic Damage
 +5% Proj Damage",,,,,,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,+10%,,,+5%,,,+5%,+5%,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,+10%,,9,1
-,Destroyed Ancient Blade,Valley,Unique,Mainhand Sword,Stone Sword,King's Valley,,,,,,,,"5.0 Attack Damage
+,Destroyed Ancient Blade,Valley,Unique,Sword <M>,Stone Sword,King's Valley,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed","Unbreaking 1
 Irreparability","Smite 3
 Fire Aspect 1
@@ -2501,11 +2501,11 @@ Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,1,,,1,3,,,1,,
 ,Fidget Spinner,Valley,Unique,Misc,Brewing Stand,King's Valley,,,,,,,,,,,,,,,,,Fidget fidget fidget,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
 ,Fish Fin,Valley,Unique,Offhand Sword,Wooden Sword,King's Valley,,,,,,,,,Unbreakable,,,,Abyssal 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
 ,Fishing Trophy,Valley,Unique,Misc,Player Head,King's Valley,,,,,,,,,,,,,,,,,Trophy,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
-,Geomantic Dagger,Valley,Unique,Mainhand Sword,Golden Sword,King's Valley,2,,,,,,,"5.0 Attack Damage
+,Geomantic Dagger,Valley,Unique,Sword <M>,Golden Sword,King's Valley,2,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
-,Glass Dagger,Valley,Unique,Mainhand Sword,Golden Sword,King's Valley,,,,,,,,"6.5 Attack Damage
+,Glass Dagger,Valley,Unique,Sword <M>,Golden Sword,King's Valley,,,,,,,,"6.5 Attack Damage
 1.6 Attack Speed",Unbreakable,Knockback 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.5,1.6,,,,,,1,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
-,Hallowed Gladius,Valley,Unique,Mainhand Sword,Golden Sword,King's Valley,,,,,,,,"2.0 Attack Damage
+,Hallowed Gladius,Valley,Unique,Sword <M>,Golden Sword,King's Valley,,,,,,,,"2.0 Attack Damage
 1.6 Attack Speed",Unbreaking 9,"Smite 4
 Fire Aspect 4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0,1.6,,,,9,,,,4,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
 ,Highstorm,Valley,Unique,Bow,Bow,King's Valley,,,,,,,,"16.0 Proj Damage
@@ -2522,9 +2522,9 @@ Irreparability",,Infinity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16.0,1.2,,
 ,Monk's Robe,Valley,Unique,Chestplate,Leather Chestplate,King's Valley,,4,,,+2 Max Health,,,,Unbreaking 5,,,,,,,,,,,,,,,,,,,,,,,,,+2,,,,,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,10,,,9,1
 ,Morphic Shield,Valley,Unique,Offhand Shield,Shield,King's Valley,,1,,,,+10% Speed,,,Mending,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+10%,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,+10%,,9,1
 ,Mr. Snuggles Doll,Valley,Unique,Helmet,Creeper Head,King's Valley,,,,Blast Prot. 6,,,+5.0 Knockback Res.,,,,,,,,,,,,,,,,,,,,,,,,6,,,,,,,,,,,,,,,,,,,+5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
-,Murano's Dagger,Valley,Unique,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"5.0 Attack Damage
+,Murano's Dagger,Valley,Unique,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
-,Murano's Dagger,Valley,Unique,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"5.0 Attack Damage
+,Murano's Dagger,Valley,Unique,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
 ,Nai's Cube,Valley,Unique,Offhand,Conduit,King's Valley,,,Adaptability,,,+5% Speed,"+10% Attack Damage
 +10% Magic Damage
@@ -2547,7 +2547,7 @@ Depth Strider 1",,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,
 4.0 Attack Damage
 4.0 Attack Speed",,"Ice Aspect 2
 Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+2.0,,,+35%,4.0,4.0,,,,,,,,,,,,2,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
-,Silver Knight's Failure,Valley,Unique,Mainhand Sword,Iron Sword,King's Valley,,,,,Regen 1,,+2.0 Knockback Res.,"6.0 Attack Damage
+,Silver Knight's Failure,Valley,Unique,Sword <M>,Iron Sword,King's Valley,,,,,Regen 1,,+2.0 Knockback Res.,"6.0 Attack Damage
 1.8 Attack Speed",Unbreaking 3,"Duelist 1
 Bleeding 1",,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,+2.0,,,,6.0,1.8,,,,3,,,,,,1,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
 ,Silver Knight's Hammer,Valley,Unique,Axe,Stone Axe,King's Valley,,,,,,,,"9.5 Attack Damage
@@ -2575,7 +2575,7 @@ Chaotic 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+20%,2.0,4.0,,,,,,,,,,,3,,2
 ,Veil Touched Staff,Valley,Unique,Wand,Stick,King's Valley,,,,,,,,"+40% Spell Power
 3.5 Attack Damage
 4.0 Attack Speed",,,,Infinity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+40%,3.5,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
-,Watcher's Sword,Valley,Unique,Mainhand Sword,Stone Sword,King's Valley,,,,,,+5% Speed,,"5.0 Attack Damage
+,Watcher's Sword,Valley,Unique,Sword <M>,Stone Sword,King's Valley,,,,,,+5% Speed,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,Smite 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+5%,,,,,,,,,,,,,5.0,1.6,,,,3,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,+5%,,9,1
 ,Water Robe,Valley,Unique,Leggings,Leather Leggings,King's Valley,,2,,Fire Prot. 3,Regen 1,,+5% Magic Damage,,Mending,,,,,,,,,,,,,,,,,,,,,,,3,,,,1,,,,,,,,,,,+5%,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,,,,9,1
 ,Waterbound Medallion,Valley,Unique,Offhand,Clock,King's Valley,1.5,1.5,,,+2 Max Health,,+5% Magic Damage,,,,,,"Abyssal 1
@@ -2597,7 +2597,7 @@ Adrenaline 3",,,,,,,,,,,,,,,,,,,,,,,,,,,,,+10%,,,,,,-10%,3,,,,,,,,,,,,,,,,,,,,,,
 ,Tesseract of Festivity,Valley,Event,Misc,White Stained Glass,King's Valley,,,,,,,,,,,,,,,,,Summons snowmen,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,1,,,,8,1
 ,Tesseract of Festivity (u),Valley,Event,Misc,White Stained Glass,King's Valley,,,,,,,,,,,,,,,,,Summons snowmen,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,1,,,,8,1
 ,The Grinch,Valley,Event,Helmet,Player Head,King's Valley,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,1,,,,8,1
-,Blizzard Blade,Valley,Uncommon,Mainhand Sword,Stone Sword,King's Valley,,,,,,,,"7.0 Attack Damage
+,Blizzard Blade,Valley,Uncommon,Sword <M>,Stone Sword,King's Valley,,,,,,,,"7.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,"Ice Aspect 2
 Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.0,1.6,,,,2,,,,,,,,2,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,1,,,,7,1
 ,Icebound Buckler,Valley,Uncommon,Mainhand,Shield,King's Valley,,,,,,+7% Speed,,"4.0 Attack Damage
@@ -2622,7 +2622,7 @@ Quick Charge 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.0,1.0,,,,,,,,,,,,
 ,Dualsun Robe,Valley,Tier 5,Leggings,Leather Leggings,King's Valley,3,,,Fire Prot. 2,+1 Max Health,,,,Unbreaking 4,,,,,,,,,,,,,,,,,,,,,,,2,,+1,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,5,,,6,1
 ,Dualsun Shoes,Valley,Tier 5,Boots,Leather Boots,King's Valley,3,,,Fire Prot. 2,+1 Max Health,,,,Unbreaking 4,,,,,,,,,,,,,,,,,,,,,,,2,,+1,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,5,,,6,1
 ,Eldritch Blade,Valley,Tier 5,Offhand Sword,Golden Sword,King's Valley,2,,,,,,+20% Attack Damage,,Unbreakable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+20%,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,,,6,1
-,Eternal Crescent,Valley,Tier 5,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"5.0 Attack Damage
+,Eternal Crescent,Valley,Tier 5,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",Mending,Sweeping Edge 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,,1,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,,,6,1
 ,Evanescent,Valley,Tier 5,Pickaxe,Wooden Pickaxe,King's Valley,,,,,,,,"2.0 Attack Damage
 1.2 Attack Speed",,,,Efficiency 4,,,Vanishing 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0,1.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,6,1,,,,6,1
@@ -2634,10 +2634,10 @@ Quick Charge 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.0,1.0,,,,,,,,,,,,
 ,Hardened Leather Tunic,Valley,Tier 5,Chestplate,Leather Chestplate,King's Valley,3,,,Blast Prot. 3,,,,,Unbreaking 3,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,,,6,1
 ,Korbaran Shortbow,Valley,Tier 5,Bow,Bow,King's Valley,,,,,,,,"14.0 Proj Damage
 1.0 Proj Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,,,6,1
-,Macuahuitl,Valley,Tier 5,Mainhand Sword,Stone Sword,King's Valley,,,,,,,,"7.0 Attack Damage
+,Macuahuitl,Valley,Tier 5,Sword <M>,Stone Sword,King's Valley,,,,,,,,"7.0 Attack Damage
 1.6 Attack Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.0,1.6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,,,6,1
 ,Mermaid's Touch,Valley,Tier 5,Mainhand,Fishing Rod,King's Valley,,,,,,,,,Mending,,,Lure 4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,,,6,1
-,Molten Rapier,Valley,Tier 5,Mainhand Sword,Stone Sword,King's Valley,,,,,,,,"5.5 Attack Damage
+,Molten Rapier,Valley,Tier 5,Sword <M>,Stone Sword,King's Valley,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 1,"Smite 1
 Fire Aspect 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,1,,,,1,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,,,6,1
 ,Nereid Cap,Valley,Tier 5,Helmet,Leather Helmet,King's Valley,,3.5,,,,,,,Unbreaking 1,,,,"Respiration 1
@@ -2654,7 +2654,7 @@ Depth Strider 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,
 ,Phoenix Axe,Valley,Tier 5,Axe,Stone Axe,King's Valley,,,,,,,,"9.5 Attack Damage
 0.8 Attack Speed",Unbreaking 4,"Fire Aspect 3
 Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.5,0.8,,,,4,,,,,,,3,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,,,6,1
-,Polished Gladius,Valley,Tier 5,Mainhand Sword,Stone Sword,King's Valley,,,,,,,,"5.5 Attack Damage
+,Polished Gladius,Valley,Tier 5,Sword <M>,Stone Sword,King's Valley,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 3,Knockback 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,3,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,,,6,1
 ,Puresilk Coif,Valley,Tier 5,Helmet,Leather Helmet,King's Valley,,3,,,,+15% Speed,+10% Attack Speed,,Unbreaking 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+15%,,,,,+10%,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,+15%,+10%,6,1
 ,Puresilk Leggings,Valley,Tier 5,Leggings,Leather Leggings,King's Valley,,3,,,,+15% Speed,+10% Attack Speed,,Unbreaking 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+15%,,,,,+10%,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,+15%,+10%,6,1
@@ -2682,7 +2682,7 @@ Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.5,0.8,,,,4,,,,,,,3,,,1
 1.2 Attack Speed",Mending,,,Efficiency 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0,1.2,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,,,6,1
 ,Undying Trowel,Valley,Tier 5,Shovel,Stone Shovel,King's Valley,,,,,,,,"3.5 Attack Damage
 1.0 Attack Speed",Mending,,,Efficiency 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.5,1.0,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,,,6,1
-,Versatile Cutlass,Valley,Tier 5,Mainhand Sword,Stone Sword,King's Valley,,,,,,,,"5.0 Attack Damage
+,Versatile Cutlass,Valley,Tier 5,Sword <M>,Stone Sword,King's Valley,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,Slayer 2,,Efficiency 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,3,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,,,,6,1
 ,Viridian Mage Hat,Valley,Tier 5,Helmet,Leather Helmet,King's Valley,,3.5,,"Projectile Prot. 1
 Magic Prot. 1
@@ -2722,7 +2722,7 @@ Blast Prot. 1",,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,
 0.8 Attack Speed",Unbreaking 3,,,Efficiency 4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.0,0.8,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
 ,Divine Cleaver,Valley,Tier 4,Axe,Stone Axe,King's Valley,,,,,,,,"9.0 Attack Damage
 0.8 Attack Speed",Unbreaking 1,Smite 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.0,0.8,,,,1,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
-,Druidic Broadsword,Valley,Tier 4,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"5.5 Attack Damage
+,Druidic Broadsword,Valley,Tier 4,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 1,Sweeping Edge 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,1,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
 ,Duelist's Sword,Valley,Tier 4,Offhand Sword,Stone Sword,King's Valley,,,,Melee Prot. 2,,,+20% Attack Damage,,Unbreakable,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,+20%,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
 ,Falling Comet,Valley,Tier 4,Axe,Wooden Axe,King's Valley,,,,,,,,"9.5 Attack Damage
@@ -2737,7 +2737,7 @@ Fortune 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0,1.2,,,,3,,,,,,,,,,,,,,,,
 ,Gemcrust Pants,Valley,Tier 4,Leggings,Leather Leggings,King's Valley,4,,,Melee Prot. 2,,,,,,,,,,,Vanishing 1,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,5,1,,,,5,1
 ,Gemcrust Shoes,Valley,Tier 4,Boots,Leather Boots,King's Valley,4,,,Melee Prot. 2,,,,,,,,,,,Vanishing 1,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,5,1,,,,5,1
 ,Gemcrust Vest,Valley,Tier 4,Chestplate,Leather Chestplate,King's Valley,4,,,Melee Prot. 2,,,,,,,,,,,Vanishing 1,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,5,1,,,,5,1
-,Godwood Sword,Valley,Tier 4,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
+,Godwood Sword,Valley,Tier 4,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,"Smite 2
 Fire Aspect 2
 Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.6,,,,2,,,,2,,,2,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
@@ -2756,7 +2756,7 @@ Silk Touch",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.5,1.0,,,,1,1,,,,,,,,,,,,,
 Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+25%,3.0,4.0,,,,,,,,,,,2,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
 ,Juggernaut Crossbow,Valley,Tier 4,Crossbow,Crossbow,King's Valley,,,,,,,,"14.0 Proj Damage
 0.6 Proj Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14.0,0.6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
-,Masterwork Sabre,Valley,Tier 4,Mainhand Sword,Stone Sword,King's Valley,,,,,,,,"5.5 Attack Damage
+,Masterwork Sabre,Valley,Tier 4,Sword <M>,Stone Sword,King's Valley,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
 ,Molten Boots,Valley,Tier 4,Boots,Leather Boots,King's Valley,,1,,"Fire Prot. 7
 Feather Falling 1",,,,,Unbreaking 2,,,,,,,,,,,,,,,,,,,,,,,7,1,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
@@ -2766,9 +2766,9 @@ Feather Falling 1",,,,,Unbreaking 2,,,,,,,,,,,,,,,,,,,,,,,7,1,,,,,,,,,,,,,,,,,,,
 Feather Falling 1",,,,,Unbreaking 2,,,,,,,,,,,,,,,,,,,,,,,7,1,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
 ,Molten Pants,Valley,Tier 4,Leggings,Leather Leggings,King's Valley,,1,,"Fire Prot. 7
 Feather Falling 1",,,,,Unbreaking 2,,,,,,,,,,,,,,,,,,,,,,,7,1,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
-,Nest's Bane,Valley,Tier 4,Mainhand Sword,Stone Sword,King's Valley,,,,,,,,"5.5 Attack Damage
+,Nest's Bane,Valley,Tier 4,Sword <M>,Stone Sword,King's Valley,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 1,Slayer 1,,Efficiency 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,1,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
-,Officer's Blade,Valley,Tier 4,Mainhand Sword,Stone Sword,King's Valley,,,,,,,,"5.5 Attack Damage
+,Officer's Blade,Valley,Tier 4,Sword <M>,Stone Sword,King's Valley,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",,Sweeping Edge 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
 ,Pyromancer's Bow,Valley,Tier 4,Bow,Bow,King's Valley,,,,,,,,"10.0 Proj Damage
 1.0 Proj Speed",Unbreaking 3,,Fire Aspect 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.0,1.0,,3,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,,,,5,1
@@ -2797,9 +2797,9 @@ Feather Falling 1",,+10% Speed,+8% Proj Damage,,,,,,,,,,,,,,,,,,,,,,2,,,,1,,,,,,
 1.5 Attack Damage
 4.0 Attack Speed",,"Smite 2
 Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+20%,1.5,4.0,,,,,,,,2,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
-,Crusader's Sword,Valley,Tier 3,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"5.0 Attack Damage
+,Crusader's Sword,Valley,Tier 3,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 1,Smite 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,1,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
-,Flamewreath Splinter,Valley,Tier 3,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
+,Flamewreath Splinter,Valley,Tier 3,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,"Fire Aspect 3
 Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.6,,,,2,,,,,,,3,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
 ,Hardened Shield,Valley,Tier 3,Offhand Shield,Shield,King's Valley,1,,,Blast Prot. 1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
@@ -2807,9 +2807,9 @@ Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.6,,,,2,,,,,,,3,,,2
 1.0 Proj Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
 ,Jagged Cleaver,Valley,Tier 3,Axe,Stone Axe,King's Valley,,,,,,,,"10.0 Attack Damage
 0.8 Attack Speed",Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.0,0.8,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
-,Light Scimitar,Valley,Tier 3,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"5.0 Attack Damage
+,Light Scimitar,Valley,Tier 3,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,Sweeping Edge 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,2,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
-,Living Thorn,Valley,Tier 3,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"4.5 Attack Damage
+,Living Thorn,Valley,Tier 3,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"4.5 Attack Damage
 1.6 Attack Speed",Mending,Slayer 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.5,1.6,,,,,1,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
 ,Masterwork Pickaxe,Valley,Tier 3,Pickaxe,Stone Pickaxe,King's Valley,,,,,,,,"3.0 Attack Damage
 1.2 Attack Speed",Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0,1.2,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
@@ -2837,7 +2837,7 @@ Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.6,,,,2,,,,,,,3,,,2
 ,Spellweave Shoes,Valley,Tier 3,Boots,Leather Boots,King's Valley,,3,,,,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
 ,Spellweave Trousers,Valley,Tier 3,Leggings,Leather Leggings,King's Valley,,3,,,,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
 ,Spellweave Tunic,Valley,Tier 3,Chestplate,Leather Chestplate,King's Valley,,3,,,,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
-,Steelwood Blade,Valley,Tier 3,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"5.5 Attack Damage
+,Steelwood Blade,Valley,Tier 3,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",Unbreaking 6,Knockback 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,6,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
 ,Steelwood Bow,Valley,Tier 3,Bow,Bow,King's Valley,,,,,,+5% Speed,,"10.0 Proj Damage
 1.0 Proj Speed",Unbreaking 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+5%,,,,,,,,,,,,,,,10.0,1.0,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,+5%,,4,1
@@ -2846,7 +2846,7 @@ Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.6,,,,2,,,,,,,3,,,2
 Fortune 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0,1.2,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
 ,Tempered Mace,Valley,Tier 3,Axe,Wooden Axe,King's Valley,,,,,,,,"8.5 Attack Damage
 0.8 Attack Speed",Unbreaking 3,Knockback 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.5,0.8,,,,3,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
-,Thief's Dagger,Valley,Tier 3,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"5.0 Attack Damage
+,Thief's Dagger,Valley,Tier 3,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"5.0 Attack Damage
 1.6 Attack Speed",Unbreaking 1,Looting 4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,1.6,,,,1,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
 ,Warlock Boots,Valley,Tier 3,Boots,Leather Boots,King's Valley,2,,,"Magic Prot. 1
 Fire Prot. 1",,,,,Unbreaking 4,,,,,,,,,,,,,,,,,,,,,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
@@ -2860,7 +2860,7 @@ Fire Prot. 1",,,,,Unbreaking 4,,,,,,,,,,,,,,,,,,,,,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,
 0.8 Attack Speed",,,,Efficiency 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.0,0.8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,,,,4,1
 ,Advanced Crossbow,Valley,Tier 2,Crossbow,Crossbow,King's Valley,,,,,,,,"11.0 Proj Damage
 1.0 Proj Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
-,Ashen Broadsword,Valley,Tier 2,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
+,Ashen Broadsword,Valley,Tier 2,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,"Fire Aspect 1
 Sweeping Edge 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.6,,,,2,,,,,,,1,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
 ,Bandit's Boots,Valley,Tier 2,Boots,Leather Boots,King's Valley,,1,,Projectile Prot. 2,,,,,Unbreaking 1,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
@@ -2900,20 +2900,20 @@ Knockback 2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+20%,1.5,4.0,,,,,,,,,,,2,
 1.2 Attack Speed",,,,Fortune 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0,1.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
 ,Peasant's Scythe,Valley,Tier 2,Scythe,Stone Hoe,King's Valley,,,,,,,,"3.0 Attack Damage
 2.0 Attack Speed",Unbreaking 1,Smite 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0,2.0,,,,1,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
-,Priest's Stake,Valley,Tier 2,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
+,Priest's Stake,Valley,Tier 2,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
 1.6 Attack Speed",Unbreaking 3,Smite 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.6,,,,3,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
 ,Rogue's Knife,Valley,Tier 2,Offhand Sword,Wooden Sword,King's Valley,,,,Melee Prot. 2,,,+10% Attack Speed,,Unbreakable,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,+10%,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,+10%,3,1
 ,Shield,Valley,Tier 2,Offhand Shield,Shield,King's Valley,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
 ,Smoldering Mace,Valley,Tier 2,Axe,Wooden Axe,King's Valley,,,,,,,,"8.0 Attack Damage
 0.8 Attack Speed",Unbreaking 2,"Smite 1
 Fire Aspect 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,0.8,,,,2,,,,1,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
-,Soldier's Blade,Valley,Tier 2,Mainhand Sword,Stone Sword,King's Valley,,,,,,,,"5.5 Attack Damage
+,Soldier's Blade,Valley,Tier 2,Sword <M>,Stone Sword,King's Valley,,,,,,,,"5.5 Attack Damage
 1.6 Attack Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.5,1.6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
 ,Student's Wand,Valley,Tier 2,Wand,Stick,King's Valley,,,,,,,,"+20% Spell Power
 3.0 Attack Damage
 4.0 Attack Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+20%,3.0,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
 ,Survivalist's Sword,Valley,Tier 2,Offhand Sword,Wooden Sword,King's Valley,,,,,+2 Max Health,,+5% Attack Damage,,Unbreakable,,,,,,,,,,,,,,,,,,,,,,,,,+2,,,,,,,,,,+5%,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,10,,,3,1
-,Tempered Ironwood Blade,Valley,Tier 2,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"4.5 Attack Damage
+,Tempered Ironwood Blade,Valley,Tier 2,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"4.5 Attack Damage
 1.6 Attack Speed",Unbreaking 5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.5,1.6,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
 ,Turtle Flippers,Valley,Tier 2,Boots,Leather Boots,King's Valley,2,,,,,,,,Unbreaking 1,,,,Depth Strider 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
 ,Turtle Helm,Valley,Tier 2,Helmet,Leather Helmet,King's Valley,2,,,,,,,,Unbreaking 1,,,,Aqua Affinity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
@@ -2921,7 +2921,7 @@ Fire Aspect 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,0.8,,,,2,,,,1,,,1,
 ,Turtle Vest,Valley,Tier 2,Chestplate,Leather Chestplate,King's Valley,2,,,,,,,,Unbreaking 1,,,,Respiration 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
 ,Versatile Axe,Valley,Tier 2,Axe,Wooden Axe,King's Valley,,,,,,,,"8.5 Attack Damage
 0.8 Attack Speed",Unbreaking 2,,,Efficiency 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.5,0.8,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
-,Versatile Knife,Valley,Tier 2,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
+,Versatile Knife,Valley,Tier 2,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
 1.6 Attack Speed",Unbreaking 1,Slayer 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.6,,,,1,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,,,,3,1
 ,Farmer's Bow,Valley,Tier 1,Bow,Bow,King's Valley,,,,,,,,"8.0 Proj Damage
 1.0 Proj Speed",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
@@ -2930,28 +2930,28 @@ Fire Aspect 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,0.8,,,,2,,,,1,,,1,
 ,Hobnailed Helm,Valley,Tier 1,Helmet,Leather Helmet,King's Valley,0.5,,,Blast Prot. 1,,,+1 Thorns,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,+1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Hobnailed Leggings,Valley,Tier 1,Leggings,Leather Leggings,King's Valley,0.5,,,Blast Prot. 1,,,+1 Thorns,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,+1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Hobnailed Vest,Valley,Tier 1,Chestplate,Leather Chestplate,King's Valley,0.5,,,Blast Prot. 1,,,+1 Thorns,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,+1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
-,Hunter's Stake,Valley,Tier 1,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
+,Hunter's Stake,Valley,Tier 1,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
 1.6 Attack Speed",Unbreaking 1,Smite 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.6,,,,1,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Infused Cloth Cloak,Valley,Tier 1,Chestplate,Leather Chestplate,King's Valley,0.5,,,Melee Prot. 1,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Infused Cloth Helm,Valley,Tier 1,Helmet,Leather Helmet,King's Valley,0.5,,,Melee Prot. 1,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Infused Cloth Leggings,Valley,Tier 1,Leggings,Leather Leggings,King's Valley,0.5,,,Melee Prot. 1,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Infused Cloth Shoes,Valley,Tier 1,Boots,Leather Boots,King's Valley,0.5,,,Melee Prot. 1,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
-,Ironwood Blade,Valley,Tier 1,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
+,Ironwood Blade,Valley,Tier 1,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
 1.6 Attack Speed",Unbreaking 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.6,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Ironwood Pick,Valley,Tier 1,Pickaxe,Wooden Pickaxe,King's Valley,,,,,,,,"2.0 Attack Damage
 1.2 Attack Speed",Unbreaking 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0,1.2,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Lucky Pick,Valley,Tier 1,Pickaxe,Wooden Pickaxe,King's Valley,,,,,,,,"2.0 Attack Damage
 1.2 Attack Speed",,,,Fortune 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.0,1.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Novice's Fishing Rod,Valley,Tier 1,Mainhand,Fishing Rod,King's Valley,,,,,,,,,Unbreaking 1,,,Lure 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
-,Oaken Broadsword,Valley,Tier 1,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
+,Oaken Broadsword,Valley,Tier 1,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
 1.6 Attack Speed",Unbreaking 1,Sweeping Edge 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.6,,,,1,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Padded Cloth Boots,Valley,Tier 1,Boots,Leather Boots,King's Valley,0.5,,,Projectile Prot. 2,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Padded Cloth Coif,Valley,Tier 1,Helmet,Leather Helmet,King's Valley,0.5,,,Projectile Prot. 2,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Padded Cloth Trousers,Valley,Tier 1,Leggings,Leather Leggings,King's Valley,0.5,,,Projectile Prot. 2,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Padded Cloth Tunic,Valley,Tier 1,Chestplate,Leather Chestplate,King's Valley,0.5,,,Projectile Prot. 2,,,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
-,Rough Dagger,Valley,Tier 1,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"4.5 Attack Damage
+,Rough Dagger,Valley,Tier 1,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"4.5 Attack Damage
 1.6 Attack Speed",Unbreaking 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.5,1.6,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
-,Scorching Splinter,Valley,Tier 1,Mainhand Sword,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
+,Scorching Splinter,Valley,Tier 1,Sword <M>,Wooden Sword,King's Valley,,,,,,,,"4.0 Attack Damage
 1.6 Attack Speed",,"Fire Aspect 1
 Knockback 1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.0,1.6,,,,,,,,,,,1,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1
 ,Serrated Shiv,Valley,Tier 1,Offhand Sword,Wooden Sword,King's Valley,,,,,,,+15% Attack Damage,,Unbreakable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+15%,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,,,,2,1

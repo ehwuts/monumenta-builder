@@ -205,7 +205,7 @@ function itemify(index, row) {
 	  "meta": {
 		  "type": null,
 		  "slot": null,
-		  "index": 
+		  "index": null
 	  }
 	}
 	//console.log(item);
