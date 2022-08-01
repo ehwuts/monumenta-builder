@@ -20,9 +20,9 @@ function maximizeListifier(results) {
 function maximizeProperty(which, stat, mainhand = false, region = "all", filter = null) {
 	let results = [];
 	which = which.toLowerCase()
-	let items = which === "attribute" ? data.filter(x => util.filterBy(x, "Attributes", stat)) : data.filter(x => util.filterBy(x, "Enchantments", stat));
-	if (filter !== null) items = items.filter(filter);
-	if (!mainhand) items = items.filter(x => !util.filterBy(x, "slot", "mainhand"));
+	let items = which === "attribute" ? util.filterBy(data, "Attributes", stat) : util.filterBy(data, "Enchantments", stat);
+	if (filter !== null) items = util.filterDataByMap(items, filter);
+	if (!mainhand) items = items.filter(x => !util.filterByFilter(x, "slot", "mainhand"));
 	
 	console.log(results.length, results, which, stat);
 	
@@ -54,10 +54,10 @@ function maximizeEnchantment(enchantment, mainhand = false, region = "all", filt
 
 function listProperty(which, stat, mainhand = false, region = "all", filter = null) {
 	let results = [];
-	let items = which === "Attribute" ? data.filter(x => filterBy(x, "Attributes", stat)) : data.filter(x => filterBy(x, "Enchantments", stat));
-	if (!mainhand) items = items.filter(x => !filterBy(x, "slot", "mainhand"));
-	if (region === "valley") items = items.filter(x => filterBy(x, "region", "valley"));
-	if (filter !== null) items = items.filter(filter);
+	let items = which === "Attribute" ? util.filterBy(data, "Attributes", stat) : util.filterBy(data, "Enchantments", stat);
+	if (!mainhand) items = items.filter(x => !util.filterByFilter(x, "slot", "mainhand"));
+	if (region === "valley") items = util.filterBy(items, "region", "valley");
+	if (filter !== null) items = util.filterDataByMap(items, filter);
 	let L = items.length;
 	for (let i = 0; i < items.length; i++) {
 		results.push([items[i].meta.slot, items[i].Monumenta.Region, which === "Attribute" ? getAttribute(items[i], stat) : getEnchantment(items[i], stat), items[i].plain.display.Name]);
@@ -89,7 +89,7 @@ function printHelp() {
 }
 
 if (process.argv.length >= 3) {
-	switch (process.argv[2].toLowerCase()) {
+	switch (process.argv[2] = process.argv[2].toLowerCase()) {
 		case "name":
 			console.log(JSON.stringify(util.getItem(process.argv[3]), null, "  ")); 
 			break;
@@ -103,10 +103,22 @@ if (process.argv.length >= 3) {
 			let results = [];
 			
 			//console.log(process.argv[2], process.argv[3]);
-			let items = data.filter(x => util.filterBy(x, process.argv[2], process.argv[3]));
+			let items = util.filterBy(data, process.argv[2], process.argv[3]);
+			if (process.argv[4]) {
+				items = util.filterBy(items, "slot", process.argv[4]);
+			}
 			let L = items.length;
 			for (let i = 0; i < items.length; i++) {
-				results.push(items[i].plain.display.Name);
+				if (process.argv[2] === "enchantments") {
+					results.push([items[i].plain.display.Name, util.getEnchantment(items[i], process.argv[3])]);
+				} else if (process.argv[2] === "attributes") {
+					results.push([items[i].plain.display.Name, util.getAttribute(items[i], process.argv[3])]);
+				} else {
+					results.push(items[i].plain.display.Name);
+				}
+			}
+			if (process.argv[2] === "attributes") {
+				results = results.sort((a, b) => { return b[1][0] - a[1][0]});
 			}
 			console.log(results.length, results);
 			break;
@@ -139,20 +151,20 @@ if (process.argv.length >= 3) {
 
 
 function speed(region = 2, adrenaline = false, mainhand = true, depthstrider = true) {
-	let items = data.filter(x => util.filterBy(x, "Attributes", "Speed"));
-	if (adrenaline) items = data.filter((x) => util.filterBy(x, "Attributes", "Speed") || util.filterBy(x, "Enchantments", "Adrenaline"));
-	if (!depthstrider) items = items.filter(x => !util.filterBy(x, "Enchantments", "Depth Strider"));
-	if (!mainhand) items = items.filter(x => !util.filterBy(x, "slot", "mainhand"));
-	if (region === 1) items = items.filter(x => util.filterBy(x, "Region", "valley"));
+	let items = util.filterBy(data, "Attributes", "Speed");
+	if (adrenaline) items = data.filter((x) => util.filterByFilter(x, "Attributes", "Speed") || util.filterByFilter(x, "Enchantments", "Adrenaline"));
+	if (!depthstrider) items = items.filter(x => !util.filterByFilter(x, "Enchantments", "Depth Strider"));
+	if (!mainhand) items = items.filter(x => !util.filterByFilter(x, "slot", "mainhand"));
+	if (region === 1) items = util.filterBy(items, "Region", "valley");
 	//slots = ["head", "chest", "legs", "feet", "offhand", "mainhand"];
 	
 	let slots = [
-		items.filter(x => util.filterBy(x, "slot", "head")),
-		items.filter(x => util.filterBy(x, "slot", "chest")),
-		items.filter(x => util.filterBy(x, "slot", "legs")),
-		items.filter(x => util.filterBy(x, "slot", "feet")),
-		items.filter(x => util.filterBy(x, "slot", "offhand")),
-		items.filter(x => util.filterBy(x, "slot", "mainhand"))
+		util.filterBy(items, "slot", "head"),
+		util.filterBy(items, "slot", "chest"),
+		util.filterBy(items, "slot", "legs"),
+		util.filterBy(items, "slot", "feet"),
+		util.filterBy(items, "slot", "offhand"),
+		util.filterBy(items, "slot", "mainhand")
 	];
 	let slot_dicts = [
 		{},
@@ -243,4 +255,4 @@ function speed(region = 2, adrenaline = false, mainhand = true, depthstrider = t
 	console.log(builds.filter(x => x[0] > max - 0.0001 || x < max + 0.0001), builds.filter(x => x[0] > max - 0.0001 || x < max + 0.0001).length);
 }
 
-speed();
+//speed();
