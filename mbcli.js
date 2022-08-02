@@ -54,13 +54,14 @@ function maximizeEnchantment(enchantment, mainhand = false, region = "all", filt
 
 function listProperty(which, stat, mainhand = false, region = "all", filter = null) {
 	let results = [];
-	let items = which === "Attribute" ? util.filterBy(data, "Attributes", stat) : util.filterBy(data, "Enchantments", stat);
+	which = which.toLowerCase();
+	let items = which === "attribute" ? util.filterBy(data, "Attributes", stat) : util.filterBy(data, "Enchantments", stat);
 	if (!mainhand) items = items.filter(x => !util.filterByFilter(x, "slot", "mainhand"));
 	if (region === "valley") items = util.filterBy(items, "region", "valley");
 	if (filter !== null) items = util.filterDataByMap(items, filter);
 	let L = items.length;
 	for (let i = 0; i < items.length; i++) {
-		results.push([items[i].meta.slot, items[i].Monumenta.Region, which === "Attribute" ? getAttribute(items[i], stat) : getEnchantment(items[i], stat), items[i].plain.display.Name]);
+		results.push([items[i].meta.slot, items[i].Monumenta.Region, which === "attribute" ? getAttribute(items[i], stat) : getEnchantment(items[i], stat), items[i].plain.display.Name]);
 	}
 	results = results.sort((a, b) => { return a[0] < b[0] ? 1 : -1;} );
 	console.log(results.length, results);
@@ -113,6 +114,11 @@ if (process.argv.length >= 3) {
 					results.push([items[i].plain.display.Name, util.getEnchantment(items[i], process.argv[3])]);
 				} else if (process.argv[2] === "attributes") {
 					results.push([items[i].plain.display.Name, util.getAttribute(items[i], process.argv[3])]);
+					
+					let curses = util.getCursesShort(items[i]);
+					if (curses) {
+						results[results.length-1].push(curses);
+					}
 				} else {
 					results.push(items[i].plain.display.Name);
 				}
@@ -144,6 +150,7 @@ if (process.argv.length >= 3) {
 	}
 } else {
 	printHelp();
+	console.log("\n");
 	getRandomBuildCLI();
 }
 
