@@ -61,7 +61,7 @@ function listProperty(which, stat, mainhand = false, region = "all", filter = nu
 	if (filter !== null) items = util.filterDataByMap(items, filter);
 	let L = items.length;
 	for (let i = 0; i < items.length; i++) {
-		results.push([items[i].meta.slot, items[i].Monumenta.Region, which === "attribute" ? getAttribute(items[i], stat) : getEnchantment(items[i], stat), items[i].plain.display.Name]);
+		results.push([items[i].meta.slot, items[i].Monumenta.Region, which === "attribute" ? util.getAttribute(items[i], stat) : util.getEnchantment(items[i], stat), items[i].plain.display.Name]);
 	}
 	results = results.sort((a, b) => { return a[0] < b[0] ? 1 : -1;} );
 	console.log(results.length, results);
@@ -125,6 +125,7 @@ if (process.argv.length >= 3) {
 			}
 			if (process.argv[2] === "attributes") {
 				results = results.sort((a, b) => { return b[1][0] - a[1][0]});
+				//results = results.sort((a, b) => { return a[1][0] - b[1][0]});
 			}
 			console.log(results.length, results);
 			break;
