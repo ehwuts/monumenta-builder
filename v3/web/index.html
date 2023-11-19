@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>A Monumenta Builder</title>
+	<link rel="icon" type="image/png" href="./mb.png">
+	<link rel="stylesheet" type="text/css" href="./mb.css">
+	
+	<meta property="og:site_name" content="A Monumenta Builder">
+	<meta property="og:title" content="Builds Monumentas">
+	<meta property="og:description" content="Actually does nothing.">
+	<meta property='og:image' content="./mbprev.png">
+</head>
+<body>
+<select id="region"><option value="0">Any</option><option value="1">Valley</option><option value="2">Isles</option><option value="3">Ring</option></select> Region<br>
+<select id="archetype"><option value="random">Any</option><option value="melee">Melee</option><option value="axe">Axe</option><option value="sword">Sword</option><option value="rogue">Rogue</option><option value="mage">Mage</option><option value="warlock">Warlock</option><option value="alchemist">Alchemist</option><option value="ranged">Ranged</option></select> Mainhand<br>
+<button id="random">Randomize</button>
+<div id="blurb">It's like you're wearing nothing at all.</div>
+<div id="build" class="floater">
+<img src="./img/Helmet.png" alt="" id="helm_img"><select id="select_Helmet"><option value="selected"></option></select><br>
+<img src="./img/Chestplate.png" alt="" id="chest_img"><select id="select_Chestplate"><option value="selected"></option></select><br>
+<img src="./img/Leggings.png" alt="" id="legs_img"><select id="select_Leggings"><option value="selected"></option></select><br>
+<img src="./img/Boots.png" alt="" id="feet_img"><select id="select_Boots"><option value="selected"></option></select><br>
+<img src="./img/Mainhand.png" alt="" id="main_img"><select id="select_Mainhand"><option value="selected"></option></select><br>
+<img src="./img/Offhand.png" alt="" id="off_img"><select id="select_Offhand"><option value="selected"></option></select><br>
+</div>
+<div id="stats" class="floater"></div>
+<div id="summary" class="floater"></div>
+<div id="float_attack" class="floater"></div>
+<div id="float_projectile" class="floater"></div>
+<div id="float_magic" class="floater"></div>
+<div id="float_misc" class="floater"></div>
+<div id="float_resist" class="floater"></div>
+<div id="float_ehp" class="floater"></div>
+<div id="situationals">
+<label title="Gain (Level * 20)% effective Armor after blocking with a shield. Duration lasts for 2.5s if blocked from offhand, and 5s from mainhand."><input type="checkbox" name="guard" id="guard">Guard</label>
+<label title="Gain Level*20% effective Armor when taking damage from an enemy within 2.5 blocks. Taking damage that would stun a shield and activates Shielding reduces Shielding's effect to half for 5 seconds."><input type="checkbox" name="shielding" id="shielding">Shielding</label>
+<label title="Gain (Level*20%) effective Armor when above 90% Max Health."><input type="checkbox" name="poise" id="poise" value="1">Poise</label>
+<label title="Gain (Level*20%) effective Armor when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic). Breaking Inure by taking a different type of damage will give half the bonus for 1 hit."><input type="checkbox" name="inure" id="inure">Inure</label>
+<label title="Gain 0.33% Armor per 1% health lost, up to 20% Armor."><input type="checkbox" name="steadfast" id="steadfast">Steadfast</label>
+<label title="Damage from attacks applied to the lower half of your max health is multiplied by 0.9^(level). Attacks received while under this threshold get their damage reduced; attacks that bring you under this threshold have the portion of the damage that is applied past the threshold reduced."><input type="checkbox" name="second_wind" id="second_wind">Second Wind</label>
+<label title="Gain (Level*20%) effective Agility on damage taken within 1.5 seconds of any previous damage from mobs."><input type="checkbox" name="ethereal" id="ethereal">Ethereal</label>
+<label title="Gain (Level*20%) effective Agility when taking damage from a source further than 4 blocks from the player."><input type="checkbox" name="reflexes" id="reflexes">Reflexes</label>
+<label title="Gain (Level*20%) effective Agility when taking damage from a source further than 4 blocks from the player."><input type="checkbox" name="evasion" id="evasion">Evasion</label>
+<label title="Gain (Level*20%) effective Agility on the first hit taken after 4 seconds of taking no damage from mobs. Half of the bonus is granted after 2 seconds of taking no damage from mobs."><input type="checkbox" name="tempo" id="tempo">Tempo</label>
+<label title="Gain (Level * 20)% effective Agility when there's 2 or less enemies within 5 blocks."><input type="checkbox" name="cloaked" id="cloaked">Cloaked</label>
+</div>
+<script src="monumenta_equipment.js"></script>
+<script src="mbweb.js"></script>
+</body>
+</html>
