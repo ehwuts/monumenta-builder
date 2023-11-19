@@ -4,7 +4,7 @@ Miscellaneous manipulations for monumenta item data. A broken vestigial interfac
 
 ## Dependencies
 
-- [ohthemisery by Albin and FlamingoBike](https://github.com/albarv340/ohthemisery/blob/main/public/items/itemData.json)
+- [ohthemisery by Albin and FlamingoBike](https://github.com/albarv340/ohthemisery/)
 - [Monumenta Item Spreadsheet by Chiinox_](https://docs.google.com/spreadsheets/d/1Kd4gBfjR4FR6T28lpbcKONlaekldiQ8t67oPPVR7PD0/edit?usp=sharing)
 - [csv-parser](https://www.npmjs.com/package/csv-parser)
 - [Browserify](https://browserify.org/)
@@ -15,4 +15,4 @@ Code original to this project is available under The MIT License, a copy of whic
 
 ## Monumenta
 
-This project is unaffilliated with Monumenta or the Monumenta Team, but they're pretty cool and you should [check them out.](https://playmonumenta.com/)
+This project is unaffilliated with Monumenta or the Monumenta Team, but they're pretty cool and you should check them out at [https://playmonumenta.com/](https://playmonumenta.com/).

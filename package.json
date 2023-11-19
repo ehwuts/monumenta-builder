@@ -4,7 +4,9 @@
   "private": true,
   "description": "fiddles with monumenta gear stats",
   "main": "test.js",
-  "dependencies": { },
+  "dependencies": {
+    "js-levenshtein": "^1.1.6"
+  },
   "devDependencies": {
     "csv-parser": "^3.0.0"
   },
