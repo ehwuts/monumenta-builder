@@ -163,6 +163,7 @@ function updateHarder() {
 
 	const fs = require("fs");
 	fs.writeFileSync("data/monumenta_equipment.json", JSON.stringify(dataset));
+	fs.writeFileSync("docs/monumenta_equipment.js", "const monumenta_equipment = " + JSON.stringify(dataset));
 	console.log("equibment db");
 }
 
