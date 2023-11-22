@@ -63,6 +63,7 @@ function updateStats() {
 	let cdr  =  stats[S.aptitude] * 5 - stats[S.ineptitude] * 5;
 	
 	let health = (20 + stats[S.max_health_flat]) * (1 + stats[S.max_health_percent] / 100);
+	if (E.second_wind.checked) health /= 2;
 	let eff_heal = 1 + 0.1 * (stats[S.sustenance] - stats[S.curse_of_anemia]);
 	let regen = (stats[S.regeneration] ? Math.sqrt(stats[S.regeneration])/3 : 0) * eff_heal;
 	let speed = (0.1 + stats[S.speed_flat]) * (1 + stats[S.speed_percent]/100) * 10;
@@ -89,7 +90,7 @@ function updateStats() {
 	if (E.tempo.checked) situational_agility_mult += 0.2 * stats[S.tempo];
 	if (E.cloaked.checked) situational_agility_mult += 0.2 * stats[S.cloaked];
 	
-	//things which make a build more consistent but make the ehp a lie
+	//things which make a build more "consistent" but make the ehp a lie
 	//second wind and steadfast cant be simultaneous with poise
 	//ethereal and tempo cant be simultaneous
 	//shielding and evasion cant be simultaneous
@@ -120,8 +121,11 @@ function updateStats() {
 		agility += Math.min(agility, situational_cap) * situational_agility_mult;
 	}
 	
+	let second_wind_multi = Math.pow(0.9, stats[S.second_wind]);
+	
 	let gdm = Math.pow(0.96, armor + agility - 0.5 * armor * agility / (armor + agility));
-	if (E.second_wind.checked) gdm *= Math.pow(0.9, stats[S.second_wind]);
+	if (E.second_wind.checked) gdm *= second_wind_multi;
+	else gdm *= (.5 + .5 * second_wind_multi);
 	let gdm_melee = gdm * Math.pow(0.96, 2 * melee_prot);
 	let gdm_proj = gdm * Math.pow(0.96, 2 * proj_prot);
 	let gdm_magic = gdm * Math.pow(0.96, 2 * magic_prot);
