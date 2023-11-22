@@ -11,7 +11,7 @@ let rare_bases_by_region = {}
 for (let x of monumenta_equipment.regions) rare_bases_by_region[x] = [];
 
 for (let item of monumenta_equipment.items) {
-	if (item[TIER] === Tiers.Rare) {
+	if (item[TIER] === RARE) {
 		let base = monumenta_equipment.base_items[item[BASE_ITEM]];
 		let region = monumenta_equipment.regions[item[REGION]];
 		
